@@ -18,6 +18,50 @@ quiere decir que no sea formal.
 
 ### Tarea Examen
 
--1. Suponga que T1 (n) y T2 (n) son el tiempo de ejecución para dos fragmentos
+1. Suponga que T1 (n) y T2 (n) son el tiempo de ejecución para dos fragmentos
 de algoritmos A1 y A2 , respectivamente, tales que T1 (n) = O(f (n)) y T2 (n) =
 O(g(n)). Pruebe que T1 (n)T2 (n) es O(f (n)g(n)) .
+
+2. Para cada uno de los siguientes fragmentos de programas, dé un análisis
+del tiempo de ejecución (O(n)). Justifique con sumas (sumatorias) y muestre la solución paso a paso de dichas sumas.
+
+  a) 
+  <pre><code>  
+  sum = 0 ;
+  f o r ( i =0; i <n ; i ++)
+      sum++;
+  </code></pre>
+
+  b)
+  <pre><code>
+  sum = 0 ;
+  f o r ( i =0; i <n ; i ++)
+      f o r ( j =0; j <n ; j ++)
+          sum++;
+  </code></pre>
+
+  c)
+  <pre><code>
+  sum = 0 ;
+  f o r ( i =0; i <n ; i ++)
+    f o r ( j =0; j <n∗n ; j ++)
+      sum++;
+  </code></pre>
+
+  d )
+  <pre><code>
+  sum = 0 ;
+  f o r ( i =0; i <n ; i ++)
+    f o r ( j =0; j <i ; j ++)
+      sum++;
+  </code></pre>
+
+      
+  e)
+  <pre><code>
+  sum = 0 ;
+  f o r ( i =0; i <n ; i ++)
+    f o r ( j =0; j <i ∗ i ; j ++)
+      f o r ( k=0; k<j ; k++)
+        sum++;
+   </code></pre>
