@@ -64,3 +64,7 @@ del tiempo de ejecución (O(n)). Justifique con sumas (sumatorias) y muestre la 
       f o r ( k=0; k<j ; k++)
         sum++;
 ```
+
+3. Defina un TDA para una Lista Ligada.
+4. Suponga que se desea almacenar eficientemente una matriz triangular inferior (incluyendo la diagonal) en la que, además, todas las entradas de los
+renglones de ı́ndice impar son cero. Obtenga el polinomio de direccionamiento para almacenar esta matriz en un arreglo unidimensional (Tip: la suma de los primeros k números naturales impares es k 2 ).
