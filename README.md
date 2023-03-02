@@ -68,8 +68,30 @@ del tiempo de ejecución (O(n)). Justifique con sumas (sumatorias) y muestre la 
 3. Defina un TDA para una Lista Ligada.
 4. Suponga que se desea almacenar eficientemente una matriz triangular inferior (incluyendo la diagonal) en la que, además, todas las entradas de los
 renglones de ı́ndice impar son cero. Obtenga el polinomio de direccionamiento para almacenar esta matriz en un arreglo unidimensional (Tip: la suma de los primeros k números naturales impares es k 2 ).
-5. Suponga que se desea almacenar eficientemente una matriz triangu-
-lar inferior (incluyendo la diagonal) en la que, además, todas las entradas de los
-renglones de ı́ndice impar son cero. Obtenga el polinomio de direccionamiento para
-almacenar esta matriz en un arreglo unidimensional (Tip: la suma de los primeros k
-números naturales impares es k 2 ).
+5. Calcular la complejidad del siguiente método, (Tip: Identifique casos para T(n) y luego vaya igualando en términos de T(n − 1), etc, hasta llegar al caso base):
+```{r}
+  int metodo ( i n t n ) {
+    int x , i ;
+    if( n <= 1 ) {
+      return 1;
+    }
+    else{
+      for( i =1; i<=n ; i++ ) {
+        x = 1;
+        while ( x < n ){
+          x = x∗2;
+        }
+      }
+      r e t u r n ( metodo ( n/2)+ metodo ( n / 2 ) ) ;
+    }
+  }
+```
+6. Diseñar un método recursivo borrar(L : ListaLigada, X : Dato) de forma recursiva. Este método eliminará de la lista el elemento tantas veces como este
+aparezca.
+7. Dé los polinomios de direccionamiento para:
+a) encontrar el elemento i-ésimo en
+f l o a t [ ] m i s F l o t a n t e s = new f l o a t [ 8 9 ] ;
+b) encontrar el elemento (i, j) en
+int
+[ ] [ ] m i s E n t e r o s = new i n t [ 1 0 ] [ 5 ] ;
+
