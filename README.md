@@ -40,19 +40,27 @@ del tiempo de ejecución (O(n)). Justifique con sumas (sumatorias) y muestre la 
           sum++;
 ```
 
+(c)
+```{r}
   sum = 0 ;
   f o r ( i =0; i <n ; i ++)
     f o r ( j =0; j <n∗n ; j ++)
       sum++;
+```
 
+(d)
+```{r}
   sum = 0 ;
   f o r ( i =0; i <n ; i ++)
     f o r ( j =0; j <i ; j ++)
       sum++;
-  
+```
+
+(e)
+```{r}
   sum = 0 ;
   f o r ( i =0; i <n ; i ++)
     f o r ( j =0; j <i ∗ i ; j ++)
       f o r ( k=0; k<j ; k++)
         sum++;
-   </code></pre>
+```
