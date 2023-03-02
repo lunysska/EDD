@@ -25,6 +25,7 @@ O(g(n)). Pruebe que T1 (n)T2 (n) es O(f (n)g(n)) .
 2. Para cada uno de los siguientes fragmentos de programas, dé un análisis
 del tiempo de ejecución (O(n)). Justifique con sumas (sumatorias) y muestre la solución paso a paso de dichas sumas.
 
+(a)
 ```{r}
   sum = 0 ;
   f o r ( i =0; i <n ; i ++)
@@ -32,10 +33,12 @@ del tiempo de ejecución (O(n)). Justifique con sumas (sumatorias) y muestre la 
 ```
   
 (b)
+```{r}
   sum = 0 ;
   f o r ( i =0; i <n ; i ++)
       f o r ( j =0; j <n ; j ++)
           sum++;
+```
 
   sum = 0 ;
   f o r ( i =0; i <n ; i ++)
