@@ -29,6 +29,8 @@ del tiempo de ejecución (O(n)). Justifique con sumas (sumatorias) y muestre la 
   sum = 0 ;
   f o r ( i =0; i <n ; i ++)
       sum++;
+  </pre></code>  
+  
 
   sum = 0 ;
   f o r ( i =0; i <n ; i ++)
