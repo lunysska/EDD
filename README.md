@@ -88,10 +88,12 @@ renglones de ı́ndice impar son cero. Obtenga el polinomio de direccionamiento 
 ```
 6. Diseñar un método recursivo borrar(L : ListaLigada, X : Dato) de forma recursiva. Este método eliminará de la lista el elemento tantas veces como este
 aparezca.
+
 7. Dé los polinomios de direccionamiento para:
+
 a) encontrar el elemento i-ésimo en
 f l o a t [ ] m i s F l o t a n t e s = new f l o a t [ 8 9 ] ;
+
 b) encontrar el elemento (i, j) en
-int
-[ ] [ ] m i s E n t e r o s = new i n t [ 1 0 ] [ 5 ] ;
+int [ ] [ ] m i s E n t e r o s = new i n t [ 1 0 ] [ 5 ] ;
 
