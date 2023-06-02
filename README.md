@@ -23,7 +23,7 @@ quiere decir que no sea formal.
 4. agregue el archivo pdf al subdirectorio TareaExamen.
 5. Comprima el directorio principal, con el compresor que desee, y envielo a la dirección virginia@ciencias.unam.mx, con el subject:[EDD-tareaExamen]
 
-### Tarea Examen
+### Tarea Examen 
 
 1. Suponga que T1 (n) y T2 (n) son el tiempo de ejecución para dos fragmentos
 de algoritmos A1 y A2 , respectivamente, tales que T1 (n) = O(f (n)) y T2 (n) =
@@ -105,4 +105,14 @@ f l o a t [ ] m i s F l o t a n t e s = new f l o a t [ 8 9 ] ;
 b) encontrar el elemento (i, j) en:
 
 int [ ] [ ] m i s E n t e r o s = new i n t [ 1 0 ] [ 5 ] ;
+
+### Tarea Examen - Ordenamientos y Búsquedas
+1. Muestra los pasos COMPLETOS para ordenar el arreglo [5, 12, 22, 3, 55, 8, 3, 10] usando Mer-
+geSort [2.5 ptos].
+2. Muestra los pasos COMPLETOS para ordenar el arreglo [5, 12, 22, 3, 55] usando HeapSort
+[2.5 ptos].
+3. ¿Cuales son los tiempos de ejecución de ordenamiento por selección para el mejor caso, el
+caso promedio y el peor de los casos?. Menciona cómo es el mejor caso [2.5 ptos].
+4. Escribe el seudocódigo del algoritmo de QuickSort y dá el análisis de complejidad para el
+peor de los casos y para el caso promedio [2.5 ptos]
 
