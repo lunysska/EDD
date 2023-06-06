@@ -109,7 +109,7 @@ int [ ] [ ] m i s E n t e r o s = new i n t [ 1 0 ] [ 5 ] ;
 ## Tarea Examen - Ordenamientos y Búsquedas
 
 ##### Lineamientos de entrega 
-Son los mismos, que en la tarea-examen pasada sólo modifican los valores, de la sección **Formato de entrega**en los puntos 4 y 5.
+Son los mismos, que en la tarea-examen pasada sólo modifican los valores, de la sección **Formato de entrega** en los puntos 4 y 5.
 
 Quedando así:
 
