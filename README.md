@@ -117,8 +117,7 @@ Quedando así:
 5. Comprima el directorio principal, con el compresor que desee, y envielo a la dirección virginia@ciencias.unam.mx, (con copia a Alain), con el subject:[tareaExamen-Ord-Busq]
 
 Instrucciones
-1. Muestra los pasos COMPLETOS para ordenar el arreglo [5, 12, 22, 3, 55, 8, 3, 10] usando Mer-
-geSort [2.5 ptos].
+1. Muestra los pasos COMPLETOS para ordenar el arreglo [5, 12, 22, 3, 55, 8, 3, 10] usando MergeSort [2.5 ptos].
 2. Muestra los pasos COMPLETOS para ordenar el arreglo [5, 12, 22, 3, 55] usando HeapSort
 [2.5 ptos].
 3. ¿Cuales son los tiempos de ejecución de ordenamiento por selección para el mejor caso, el
