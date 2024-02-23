@@ -4,9 +4,9 @@
 1. Motivación
 2. Introducción
 3. TDA
-   El ejemplo de booleano
+   (El ejemplo de booleano)
 5. El tiempo de ejecución de un programa
-   Un ejemplo de varios algoritmos resolviendo el mismo problema
+   5.1 Un ejemplo de varios algoritmos resolviendo el mismo problema
    El tiempo de ejecucion de un programa. Tomando los tiempos del reloj de la compu.
    Como se grafican para comparar los tiempos de k programas diferentes
    Consideramos los supuestos bajo los cuales ese metodo funciona. E hicimos conclusiones pertinentes
