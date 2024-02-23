@@ -5,21 +5,21 @@
 2. Introducción
 3. TDA
    (El ejemplo de booleano)
-5. El tiempo de ejecución de un programa
+4. El tiempo de ejecución de un programa
    5.1 Un ejemplo de varios algoritmos resolviendo el mismo problema
    El tiempo de ejecucion de un programa. Tomando los tiempos del reloj de la compu.
    Como se grafican para comparar los tiempos de k programas diferentes
    Consideramos los supuestos bajo los cuales ese metodo funciona. E hicimos conclusiones pertinentes
    El tiempo de ejecucion de algoritmos secuenciales, condicionales y ciclos
    La importancia de resolver las series en lugar de reducir a una polinomica
-7. Introducción a la complejidad de algoritmos
+5. Introducción a la complejidad de algoritmos
    defincion de o-grande
    las reglas de la suma y el producto
-8. Recursión
+6. Recursión
    Cálculo de complejidad para algoritmos recursivos
-9. Estructuras de datos
+7. Estructuras de datos
    Definicion. operaciones y su clasificaciòn.    
-10. Arreglos  
+8. Arreglos  
 
 
 
