@@ -1,10 +1,3 @@
-[23/2, 5:39 p. m.] Virgin: Polinomio de direccionamiento
-[23/2, 5:39 p. m.] Virgin: Caracteristicas
-[23/2, 5:39 p. m.] Virgin: De una dimension
-[23/2, 5:39 p. m.] Virgin: De dos dimensiones
-[23/2, 5:39 p. m.] Virgin: Definicion gral
-[23/2, 5:40 p. m.] Virgin: Les deje de tarea con puntos extras que hagan un esquema del polinomio para dos dimensiones
-
 ## Curso de Estructuras de Datos con Java.
 
 1. Motivación
@@ -26,6 +19,21 @@
 7. Estructuras de datos
    Definicion. operaciones y su clasificaciòn.    
 8. Arreglos.
+Polinomio de direccionamiento
+Caracteristicas
+De una dimension
+De dos dimensiones
+Definicion gral
+Tarea: Les deje de tarea con puntos extras que hagan un esquema del polinomio para dos dimensiones
+9. Estructuras de datos lineales.
+    9.1 Listas ligadas
+    que son, que operaciones tienen.
+    Definición del TDA celda
+    Definicion del TDA ListaLigada
+     metodos de servicio: agregarEnCabeza, agregarEnCola, AgregarDespuésDeUnValor, eliminarDadoUnValor
+   
+11. Estructuras de datos arborescentes
+
    
 
 
