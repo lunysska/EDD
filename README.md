@@ -4,7 +4,7 @@
 2. Introducción
 3. TDA
    (El ejemplo de booleano)
-4. El tiempo de ejecución de un programa(presentaciones/moduloTiempoEjecuciónPrograma.md)
+4. El tiempo de ejecución de un programa(capitulos/moduloTiempoEjecuciónPrograma.md)
    5.1 Un ejemplo de varios algoritmos resolviendo el mismo problema
    El tiempo de ejecucion de un programa. Tomando los tiempos del reloj de la compu.
    Como se grafican para comparar los tiempos de k programas diferentes
