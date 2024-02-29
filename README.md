@@ -1,4 +1,8 @@
 ## Curso de Estructuras de Datos con Java.
+
+
+
+
 [Tareas](capitulos/tareas.md)
 
 1. Motivación
@@ -26,8 +30,7 @@ Tarea: Les deje de tarea con puntos extras que hagan un esquema del polinomio pa
     Definición del TDA celda
     Definicion del TDA ListaLigada
      metodos de servicio: agregarEnCabeza, agregarEnCola, AgregarDespuésDeUnValor, eliminarDadoUnValor
-   
-11. Estructuras de datos arborescentes
+Este curso forma parte de los complementos a desarrollar para el curso de Estructuras de Datos para la carrera de Ciencias de la Computación, para la Facultad de Ciencias, UNAM.. Estructuras de datos arborescentes
 
-Este curso forma parte de los complementos a desarrollar para el curso de Estructuras de Datos para la carrera de Ciencias de la Computación, para la Facultad de Ciencias, UNAM.
+
 
