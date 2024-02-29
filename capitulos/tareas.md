@@ -1,5 +1,5 @@
 #
-### Complejidad, TDA, Arreglos y Recursión
+### Complejidad, TDA, Arreglos y Recursión y polinomio de direccionamiento
 
 ### Fechas
 Fecha de inicio:  1 de Marzo de 2023
