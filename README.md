@@ -1,4 +1,5 @@
 ## Curso de Estructuras de Datos con Java.
+[Tareas](capitulos/tareas.md)
 
 1. Motivación
 2. Introducción
