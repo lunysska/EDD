@@ -3,22 +3,15 @@
 
 ### Fechas
 Fecha de inicio:  1 de Marzo de 2023
-Fecha de fin: 15 de Marzo de 2023
+Fecha de fin: 10 de Marzo de 2023
 
 ### Lineamientos
-1. Debe ser entregada a mano, con letra legible, con formato LEGIBLE (no escribir
-en las orillas de las hojas, ni usar lápiz), y mucha limpieza, aunque sea a mano, no
-quiere decir que no sea formal.
+1. Debe ser entregada en el repositorio personal de cada alumno
 2. La elaboración es individual.
 3. Sólo se reciben las tareas hasta el último día marcado, antes de las 11:59 pm
 
 ### Formato de Entrega
-1. Genere un directorio principal con nombre "suNombreSuApellido", ejemplo: "VirginiaTeodosio"
-2. Dentro del directorio principal, cree otro directorio con nombre "TareaExamen"
-3. Cree un documento pdf con todas sus respuestas, incluido en la parte superior, su nombre completo, con nombre tareaExamenSuNombreSuApellido.pdf (reemplaze lo respectivo con sus datos personales, ejemplo: tareaExamenVirginiaTeodosio.pdf)
-4. agregue el archivo pdf al subdirectorio TareaExamen.
-5. Comprima el directorio principal, con el compresor que desee, y envielo a la dirección virginia@ciencias.unam.mx, con el subject:[EDD-tareaExamen]
-
+1. Dentro del directorio principal de "teoria", cree otro directorio con nombre "tareaExamen"
 ### Tarea Examen 
 
 1. Suponga que T1 (n) y T2 (n) son el tiempo de ejecución para dos fragmentos
