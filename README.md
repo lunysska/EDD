@@ -5,12 +5,6 @@
 3. TDA
    (El ejemplo de booleano)
 4. [El tiempo de ejecución de un programa](capitulos/moduloTiempoEjecuciónPrograma.md)
-   5.1 Un ejemplo de varios algoritmos resolviendo el mismo problema
-   El tiempo de ejecucion de un programa. Tomando los tiempos del reloj de la compu.
-   Como se grafican para comparar los tiempos de k programas diferentes
-   Consideramos los supuestos bajo los cuales ese metodo funciona. E hicimos conclusiones pertinentes
-   El tiempo de ejecucion de algoritmos secuenciales, condicionales y ciclos
-   La importancia de resolver las series en lugar de reducir a una polinomica
 5. Introducción a la complejidad de algoritmos
    defincion de o-grande
    las reglas de la suma y el producto
