@@ -2,7 +2,7 @@
 
 ### Fechas
 Fecha de inicio:  1 de Marzo de 2024
-Fecha de fin: 10 de Marzo de 2024
+Fecha de fin: 11 de Marzo de 2024
 
 ### Lineamientos
 1. Debe ser entregada en el repositorio personal de cada alumno
