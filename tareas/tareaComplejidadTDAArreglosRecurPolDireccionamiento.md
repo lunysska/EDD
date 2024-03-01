@@ -2,8 +2,8 @@
 ### Complejidad, TDA, Arreglos, Recursión y Polinomio de Direccionamiento
 
 ### Fechas
-Fecha de inicio:  1 de Marzo de 2023
-Fecha de fin: 10 de Marzo de 2023
+Fecha de inicio:  1 de Marzo de 2024
+Fecha de fin: 10 de Marzo de 2024
 
 ### Lineamientos
 1. Debe ser entregada en el repositorio personal de cada alumno
@@ -11,7 +11,8 @@ Fecha de fin: 10 de Marzo de 2023
 3. Sólo se reciben las tareas hasta el último día marcado, antes de las 11:59 pm
 
 ### Formato de Entrega
-1. Dentro del directorio principal de "teoria", cree otro directorio con nombre "tareaExamen"
+1. Dentro del directorio principal de "teoria", cree otro directorio con nombre "tareaExamen1"
+
 ### Tarea Examen 
 
 1. Suponga que T1 (n) y T2 (n) son el tiempo de ejecución para dos fragmentos
