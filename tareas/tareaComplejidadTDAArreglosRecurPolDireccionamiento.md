@@ -1,5 +1,4 @@
-#
-### Complejidad, TDA, Arreglos, Recursión y Polinomio de Direccionamiento
+## Tarea Examen1. Complejidad, TDA, Arreglos, Recursión y Polinomio de Direccionamiento
 
 ### Fechas
 Fecha de inicio:  1 de Marzo de 2024
