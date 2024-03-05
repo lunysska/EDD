@@ -33,7 +33,7 @@ Este curso forma parte de los complementos a desarrollar para el curso de Estruc
        5. Métodos de servicio: agregarEnCabeza, agregarEnCola, AgregarDespuésDeUnValor, eliminarDadoUnValor, actualizarUnObjetoDadoUnValor, obtenerUnObjetoDadoUnValor
        6. El método **size** con implementación lineal y constante.
             1. Ventajas y desventajas de cada implementación <br>
-       *. **Tarea:** Tarea con puntos extras: Revisar y analizar la clase equivalente para Lista Ligada en el API de Java 
+      *. **Tarea:** Tarea con puntos extras: Revisar y analizar la clase equivalente para Lista Ligada en el API de Java<br>
    2. Listas doblemente ligadas
      1. TDAS: CeldaDoblementeLigada. ListaDoblementeLigada. La revisión se realiza en pseudocodigo-lenguaje natural.
      2. El análisis del tiempo de ejecución de cada método.
