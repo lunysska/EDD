@@ -22,14 +22,15 @@ Este curso forma parte de los complementos a desarrollar para el curso de Estruc
    2. Características
    3. De una dimensión
    4. De dos dimensiones
-   5. Definicion formal general
-   *. **Tarea:** Tarea con puntos extras: Hacer un esquema del polinomio para dos dimensiones
-10. Estructuras de datos lineales.
+   5. Definicion formal general<br>
+   *. **Tarea:** Tarea con puntos extras: Hacer un esquema del polinomio para dos dimensiones<br>
+9. Estructuras de datos lineales.
     9.1 Listas ligadas
-    que son, que operaciones tienen.
-    Definición del TDA celda
-    Definicion del TDA ListaLigada
-     metodos de servicio: agregarEnCabeza, agregarEnCola, AgregarDespuésDeUnValor, eliminarDadoUnValor
+       1. Qué son
+       2. Sus operaciones
+       3. Definición del TDA celda
+       4. Definición del TDA ListaLigada
+       5. Métodos de servicio: agregarEnCabeza, agregarEnCola, AgregarDespuésDeUnValor, eliminarDadoUnValor
 
 
 
