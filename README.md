@@ -9,8 +9,8 @@ Este curso forma parte de los complementos a desarrollar para el curso de Estruc
    (El ejemplo de booleano)
 4. [El tiempo de ejecución de un programa](capitulos/moduloTiempoEjecuciónPrograma.md)
 5. Introducción a la complejidad de algoritmos
-  1. Definición de O-grande
-  2. Las reglas de la suma y el producto
+    1. Definición de O-grande
+    2. Las reglas de la suma y el producto
 7. Recursión
    Cálculo de complejidad para algoritmos recursivos
 8. Estructuras de datos
