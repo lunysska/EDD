@@ -1,5 +1,5 @@
 ## Curso de Estructuras de Datos con Java.
-Este curso forma parte de los complementos a desarrollar para el curso de Estructuras de Datos para la carrera de Ciencias de la Computación, para la Facultad de Ciencias, UNAM.. Estructuras de datos arborescentes
+Este curso forma parte de los complementos a desarrollar para el curso de Estructuras de Datos para la carrera de Ciencias de la Computación, para la Facultad de Ciencias, UNAM.
 
 [Tareas](capitulos/tareas.md)
 
@@ -38,5 +38,5 @@ Este curso forma parte de los complementos a desarrollar para el curso de Estruc
      1. TDAS: CeldaDoblementeLigada. ListaDoblementeLigada. La revisión se realiza en pseudocodigo-lenguaje natural.
      2. El análisis del tiempo de ejecución de cada método<br>
    *. **Tarea:** Tarea con puntos extras: Definir los dos TDA's de esta sección a un nivel que el pseudocódigo se parezca más a código de Java<br>
-   *. **Tarea:** Tarea con puntos extras: Revisar el API de Collections de Java y verificar qué clase es la equivalente a Lista Doblemente Ligada yrealizar un análisis minucioso <br>
+   *. **Tarea:** Tarea con puntos extras: Revisar el API de Collections de Java y verificar qué clase es la equivalente a Lista Doblemente Ligada y realizar un análisis minucioso <br>
         
