@@ -30,7 +30,6 @@ Este curso forma parte de los complementos a desarrollar para el curso de Estruc
        2. Sus operaciones
        3. Definición del TDA celda
        4. Definición del TDA ListaLigada
-       5. Métodos de servicio: agregarEnCabeza, agregarEnCola, AgregarDespuésDeUnValor, eliminarDadoUnValor
-
-
-
+       5. Métodos de servicio: agregarEnCabeza, agregarEnCola, AgregarDespuésDeUnValor, eliminarDadoUnValor, actualizarUnObjetoDadoUnValor, obtenerUnObjetoDadoUnValor
+       6. El método **size** con implementación lineal y constante.
+            1. Ventajas y desventajas de cada implementación
