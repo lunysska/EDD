@@ -33,3 +33,4 @@ Este curso forma parte de los complementos a desarrollar para el curso de Estruc
        5. Métodos de servicio: agregarEnCabeza, agregarEnCola, AgregarDespuésDeUnValor, eliminarDadoUnValor, actualizarUnObjetoDadoUnValor, obtenerUnObjetoDadoUnValor
        6. El método **size** con implementación lineal y constante.
             1. Ventajas y desventajas de cada implementación
+   2. Listas doblemente ligadas
