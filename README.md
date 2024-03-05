@@ -25,7 +25,7 @@ Este curso forma parte de los complementos a desarrollar para el curso de Estruc
    5. Definicion formal general<br>
    *. **Tarea:** Tarea con puntos extras: Hacer un esquema del polinomio para dos dimensiones<br>
 9. Estructuras de datos lineales.
-    1. Listas ligadas
+   1. Listas ligadas
        1. Qué son
        2. Sus operaciones y el análisis del tiempo de ejecución
        3. Definición del TDA celda
