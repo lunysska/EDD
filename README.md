@@ -9,20 +9,20 @@ Este curso forma parte de los complementos a desarrollar para el curso de Estruc
    (El ejemplo de booleano)
 4. [El tiempo de ejecución de un programa](capitulos/moduloTiempoEjecuciónPrograma.md)
 5. Introducción a la complejidad de algoritmos
-   defincion de o-grande
-   las reglas de la suma y el producto
-6. Recursión
+  5.1 Definición de O-grande
+  5.2 Las reglas de la suma y el producto
+7. Recursión
    Cálculo de complejidad para algoritmos recursivos
-7. Estructuras de datos
+8. Estructuras de datos
    Definicion. operaciones y su clasificaciòn.    
-8. Arreglos.
+9. Arreglos.
 Polinomio de direccionamiento
 Caracteristicas
 De una dimension
 De dos dimensiones
 Definicion gral
 Tarea: Les deje de tarea con puntos extras que hagan un esquema del polinomio para dos dimensiones
-9. Estructuras de datos lineales.
+10. Estructuras de datos lineales.
     9.1 Listas ligadas
     que son, que operaciones tienen.
     Definición del TDA celda
