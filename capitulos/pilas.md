@@ -1,4 +1,4 @@
-** Pilas
+## Pilas
 1. Sus operaciones. 
 2. Implementamos con un soporte con lista ligada en la parte privada.
 3. Analizamos el tiempo de ejecución de sus métodos.
