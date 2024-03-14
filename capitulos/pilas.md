@@ -10,4 +10,5 @@
    3. Generalizamos para: [](){}<br><br>
 
 **Tarea:** TDA de Pila con soporte de arreglos<br>
-**Tarea:** Evaluación de expresiones aritméticas sencillas, usando dos pilas. Ejemplo: ((3+4)*(4+8))/2<br>   
+**Tarea:** Evaluación de expresiones aritméticas sencillas, usando dos pilas. Ejemplo: ((3+4)*(4+8))/2<br>
+**Tarea:** Explicación a detalle de lo que es una Pila, con sus respectivos diferentes formas de implementación
