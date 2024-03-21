@@ -1,4 +1,17 @@
 # Tarea Examen 2: Listas, Pilas, Colas y Tablas de Dispersión
+
+## Fechas
+Fecha de inicio: 20 de Marzo de 2024 Fecha de fin: 04 de Abril de 2024
+
+## Lineamientos
+Debe ser entregada en el repositorio personal de cada alumno
+La elaboración es individual.
+Sólo se reciben las tareas hasta el último día marcado, antes de las 11:59 pm
+
+## Formato de Entrega
+Dentro del directorio principal de "teoria", cree otro directorio con nombre "tareaExamen2"
+
+## Tarea Examen
 1. (2.5 ptos) Diseñe, en pseudocódigo, un método que reciba una lista ligada L
 y una pila P , el cual deberá modificar la lista original eliminando las posiciones indicadas por cada nodo de la pila. Use las operaciones propias de cada
 estructura. Calcule el O.<br>
