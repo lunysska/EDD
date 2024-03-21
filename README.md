@@ -28,5 +28,8 @@ Este curso forma parte de los complementos a desarrollar para el curso de Estruc
    1. [Listas ligadas](capitulos/listasLigadas.md)
    2. [Listas doblemente ligadas](capitulos/listasDoblementeLigadas.md)
    3. [Pilas](capitulos/pilas.md)
-
+   4. Colas (apps: colas de prioridades, para hilos de ejecución en java y su simil para bancos y s.o.)
+   5. Tablas de dispersión, con la solución de colisiones.<br>
+   *. **Tarea:** Revisar qué estructuras de datos en el api de java trabajan como tablas hash y sus diferencias.<br>
+   *. **Tarea:** que digan que se tiene que hacer a nivel de los TDAS propios para ṕoder agregar esos objetos en una colección del tipo investigado en 1 y que funciona bien (osea hashcode) y cómo eso funciona para Java
            
