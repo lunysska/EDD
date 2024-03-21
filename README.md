@@ -31,5 +31,8 @@ Este curso forma parte de los complementos a desarrollar para el curso de Estruc
    4. Colas (apps: colas de prioridades, para hilos de ejecución en java y su simil para bancos y s.o.)
    5. Tablas de dispersión, con la solución de colisiones.<br>
    *. **Tarea:** Revisar qué estructuras de datos en el api de java trabajan como tablas hash y sus diferencias.<br>
-   *. **Tarea:** que digan que se tiene que hacer a nivel de los TDAS propios para ṕoder agregar esos objetos en una colección del tipo investigado en 1 y que funciona bien (osea hashcode) y cómo eso funciona para Java
-           
+   *. **Tarea:** que digan que se tiene que hacer a nivel de los TDAS propios para ṕoder agregar esos objetos en una colección del tipo investigado en 1 y que funciona bien (osea hashcode) y cómo eso funciona para Java<br>
+10. Estructuras de datos arborescentes
+    1. Intro. Conceptos de árboles
+    2. Abb. Su definición, sus operaciones y tiempo de ejecución, el método de inserción y de conteo de ocurrencias y cómo se divide en 4 casos. El método borrar, los tiempos de ejecución de esos metodos (en el caso promedio y peor caso).
+    3. AVL. Analizamos algunos ejemplos y la necesidad de hacer operaciones de rotación, para lograr balancear el árbol.
