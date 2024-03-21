@@ -10,16 +10,16 @@ los elementos. El método no puede alterar a la cola y tampoco puede hacer
 una copia de la misma.
 
 3. (2.5 ptos)
-  3.1 Cuánto tarda la ejecución del método que inserta un elemento en un hash?
-  3.2 Describa la estrategia lineal para resolver una colisión. Si se utiliza esta técnica ¿cómo se garantiza el mismo tiempo de ejecución mencionado en
+     3.1 Cuánto tarda la ejecución del método que inserta un elemento en un hash?
+     3.2 Describa la estrategia lineal para resolver una colisión. Si se utiliza esta técnica ¿cómo se garantiza el mismo tiempo de ejecución mencionado en
 el inciso anterior?
 
-4. (2.5 ptos) Redefina el TDA de ListaLigada, de tal manera que garantice
+5. (2.5 ptos) Redefina el TDA de ListaLigada, de tal manera que garantice
 que el tiempo de ejecución de la operación size es O(1).(Basta con escribir en
 seudocódigo sólo aquellas partes del TDA que se ven afectadas). Mencione las
 ventajas y desventajas.
 
-5. (1 pto -Punto extra-) Redefina el TDA de Celda (el que representa a la
+6. (1 pto -Punto extra-) Redefina el TDA de Celda (el que representa a la
 celda para una lista ligada), de manera tal que cada una tenga nombre y
 posición. Defina sus operaciones adecuadamente en pseudocódigo.
 
