@@ -1,4 +1,5 @@
 ## TDA
+Se desarrolla el ejemplo de Booleano.
 
 ### Ayudantía teórica
 Se hizo un repaso:
