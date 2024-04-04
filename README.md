@@ -34,4 +34,4 @@ Este curso forma parte de los complementos a desarrollar para el curso de Estruc
 10. Estructuras de datos arborescentes
     1. Intro. Conceptos de árboles
     2. Abb. Su definición, sus operaciones y tiempo de ejecución, el método de inserción y de conteo de ocurrencias y cómo se divide en 4 casos. El método borrar, los tiempos de ejecución de esos metodos (en el caso promedio y peor caso).
-    3. AVL. Analizamos algunos ejemplos y la necesidad de hacer operaciones de rotación, para lograr balancear el árbol.
+    3. [AVL](capitulos/AVL.md). Analizamos algunos ejemplos y la necesidad de hacer operaciones de rotación, para lograr balancear el árbol.
