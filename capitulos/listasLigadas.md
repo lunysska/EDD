@@ -7,4 +7,9 @@
        6. El método **size** con implementación lineal y constante.
             1. Ventajas y desventajas de cada implementación <br>
    *. **Tarea:** Tarea con puntos extras: Revisar y analizar la clase equivalente para Lista Ligada en el API de Java, examinarla a detalle<br>
-  
+
+### Ayudantía teórica
+Se comparan la estructura ListaLigada con Arreglo en relacion a las operaciones que podemos realizar en cada estructura y se calcula la complejidad de las operaciones, agregar, eliminar, actualizar y obtener elementos.
+
+### Laboratorio
+Se crea la estructura ListaLigada con base en la interfaz Lista tomando en consideración el TDA ListaLigada.
