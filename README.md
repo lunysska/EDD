@@ -10,7 +10,7 @@ Este curso forma parte de los complementos a desarrollar para el curso de Estruc
 5. [Introducción a la complejidad de algoritmos](capitulos/complejidadComputacional.md)
     1. Definición de O-grande
     2. Las reglas de la suma y el producto
-6. Recursión
+6. [Recursión](capitulos/recursion.md)
    1. Cálculo de complejidad para algoritmos recursivos
 7. Estructuras de datos
    1. Definición
