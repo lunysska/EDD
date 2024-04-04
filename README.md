@@ -5,8 +5,7 @@ Este curso forma parte de los complementos a desarrollar para el curso de Estruc
 
 1. Motivación
 2. Introducción
-3. TDA
-   (El ejemplo de booleano)
+3. [TDA](capitulos/TDA.md)
 4. [El tiempo de ejecución de un programa](capitulos/moduloTiempoEjecuciónPrograma.md)
 5. Introducción a la complejidad de algoritmos
     1. Definición de O-grande
