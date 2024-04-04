@@ -12,3 +12,11 @@
 **Tarea:** TDA de Pila con soporte de arreglos<br>
 **Tarea:** Evaluación de expresiones aritméticas sencillas, usando dos pilas. Ejemplo: ((3+4)*(4+8))/2<br>
 **Tarea:** Explicación a detalle de lo que es una Pila, con sus respectivos diferentes formas de implementación
+
+### Ayudantía teórica
+Revisamos la pila que generan las funciones recursivas:
+1. Factorial
+2. Fibonacci
+
+### Laboratorio
+Se implementa una pila con base en una lista ligada y se resuelve el problema de las Torres de Hanoi para $n$ discos.
