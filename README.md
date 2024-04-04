@@ -7,7 +7,7 @@ Este curso forma parte de los complementos a desarrollar para el curso de Estruc
 2. Introducción
 3. [TDA](capitulos/TDA.md)
 4. [El tiempo de ejecución de un programa](capitulos/moduloTiempoEjecuciónPrograma.md)
-5. Introducción a la complejidad de algoritmos
+5. [Introducción a la complejidad de algoritmos](capitulos/complejidadComputacional.md)
     1. Definición de O-grande
     2. Las reglas de la suma y el producto
 6. Recursión
