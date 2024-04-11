@@ -1,3 +1,16 @@
+# Tarea Examen3. Estructuras de datos arborescentes
+## Fechas
+### Fecha de inicio: 11 de Abril de 2024 Fecha de fin: 24 de Abril de 2024
+
+## Lineamientos
+Debe ser entregada en el repositorio personal de cada alumno
+La elaboración es individual.
+Sólo se reciben las tareas hasta el último día marcado, antes de las 11:59 pm
+
+## Formato de Entrega
+Dentro del directorio principal de "teoria", cree otro directorio con nombre "tareaExamen3"
+
+## Tarea Examen
 1. ¿Cuántos nodos existen en un  árbol binario completo de profundidad 10?.
 ¿Cuántas hojas tiene? [1 pto].
 
