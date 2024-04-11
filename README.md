@@ -33,5 +33,17 @@ Este curso forma parte de los complementos a desarrollar para el curso de Estruc
    *. **Tarea:** que digan que se tiene que hacer a nivel de los TDAS propios para ṕoder agregar esos objetos en una colección del tipo investigado en 1 y que funciona bien (osea hashcode) y cómo eso funciona para Java<br>
 10. Estructuras de datos arborescentes
     1. Intro. Conceptos de árboles
-    2. Abb. Su definición, sus operaciones y tiempo de ejecución, el método de inserción y de conteo de ocurrencias y cómo se divide en 4 casos. El método borrar, los tiempos de ejecución de esos metodos (en el caso promedio y peor caso).
+    2. ABB. Su definición, sus operaciones y tiempo de ejecución, el método de inserción y de conteo de ocurrencias y cómo se divide en 4 casos. El método borrar, los tiempos de ejecución de esos metodos (en el caso promedio y peor caso).
     3. [AVL](capitulos/AVL.md). Analizamos algunos ejemplos y la necesidad de hacer operaciones de rotación, para lograr balancear el árbol.
+    4. Heap
+11. Algoritmos de búsqueda
+    1.Busqueda Lineal
+    2. Búsqueda Binaria
+    3. DFS
+    4. BFS     
+13. Algoritmos de ordenamiento
+    1. Burbuja
+    2. Inserción
+    3. Selección
+    4. Heap
+       
