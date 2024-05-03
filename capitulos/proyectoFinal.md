@@ -28,6 +28,6 @@ El programa deberá usarse a través de una interfaz gráfica SENCILLA, donde s�
 
 ### Ejemplos
 NOTA: Se incluyen en esta página ejemplos de archivos de entrada y de salida (pero única y exclusivamente como ejemplos de FORMATO de salida)
-<img src="imagenes/entrada.txt" alt="proyecto R" width="400px"> 
-<img src="imagenes/salida.txt.png" alt="proyecto R" width="400px"> 
+<img src="imagenes/entrada.txt" alt="entrada" width="400px"> 
+<img src="imagenes/salida.txt" alt="salida" width="400px"> 
 
