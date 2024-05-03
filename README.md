@@ -1,7 +1,7 @@
 ## Curso de Estructuras de Datos con Java.
 Este curso forma parte de los complementos a desarrollar para el curso de Estructuras de Datos para la carrera de Ciencias de la Computación, para la Facultad de Ciencias, UNAM.
 
-[Tareas](capitulos/tareas.md)
+[Tareas](capitulos/tareas.md)<br>
 [Proyecto Final](capitulos/proyectoFinal.md)
 
 1. Motivación
