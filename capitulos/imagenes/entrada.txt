@@ -1,0 +1,7 @@
+100
+5
+1#cpu#15#Osvaldo#25 Febrero 2011
+2#refrigerador#50#David#13 de Abril de 2012
+3#silla#33#Miguel#25 de Octubre de 1968
+4#sala#51#Alicia#13 de Septiembre de 1987
+5#lámpara#49#Esther#09 de Enero de 2012
