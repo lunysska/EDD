@@ -10,3 +10,22 @@ Para almacenar a objeto=(i) procedemos a buscar desde la raíz un contenedor dis
 En otro caso consideremos almacenar a objeto(j)=7 con 7 unidades de tamaño, empezando por H y al no ser candidato, la búsqueda se inicia hacia la derecha, tomando como mejor candidato a C, en la búsqueda de una mejor opción debemos movernos hacia la izquierda, nos encontramos con E, quien es mejor candidato ahora, en busca de uno mejor, nos movemos a la izquierda, nos encontramos con J y queda este último como el contenedor que se elije!
 Cuando hemos encontrado el mejor contenedor, debemos borrarlo del árbol, reduciendo su capacidad disponible y reinsertándolo con el nuevo espacio disponible (al menos que su capacidad disponible quede en 0). Si en la búsqueda no encontramos un contenedor con suficiente capacidad para almacenar a nuestro objeto, entonces iniciamos un nuevo contenedor.
 
+## Especificación del programa
+
+### Entrada
+La entrada será un archivo en formato de texto, con extensión .txt el que debe contener :
+- Un nùmero que describa el tamaño fijo que los contenedores dispondrán.
+- El nùmero de objetos a empaquetar y a continuación la lista de los objetos. Cada objeto debe tener: su id, su nombre (ejemplo: bolsa, carro, cpu, etc), su tamaño (unidades enteras, ejemplo: 4, 500, 200, 31, etc), su descripciòn (es a elección, puede incluir nombre del propietario, destino, etc). Por conveniencia supondremos que el tamaño de ningún objeto rebasa el tamaño de los contenedores
+El separador de los campos será el carácter "#"
+
+### Salida
+La salida será otro archivo en formato de texto, con extensión .txt el que debe contener:
+Un número que describa la cantidad de contenedores que fueron usados
+Hacia abajo, de forma muy bien descrita, debe enlistar los contenedores que fueron usados (de forma ordenada) y debe tener la descripción de los objetos que contiene, también de forma ordenada con respecto al id.
+
+### Uso del programa:
+El programa deberá usarse a través de una interfaz gráfica SENCILLA, donde sólo se solicite la ejecución del programa con un botón y que muestre la salida del programa en una área de texto, osea los datos parecidos a los que muestra el archivo de salida antes descrito.
+
+### Ejemplos
+NOTA: Se incluyen en esta página ejemplos de archivos de entrada y de salida (pero única y exclusivamente como ejemplos de FORMATO de salida)
+
