@@ -1,13 +1,14 @@
 ## Tarea Examen1. Complejidad, TDA, Arreglos, Recursión y Polinomio de Direccionamiento
 
 ### Fechas
-Fecha de inicio:  1 de Marzo de 2024
-Fecha de fin: 11 de Marzo de 2024
+Fecha de inicio:  25 de Febrero de 2025
+Fecha de fin: 07 de Marzo de 2025
 
 ### Lineamientos
 1. Debe ser entregada en el repositorio personal de cada alumno
 2. La elaboración es individual.
 3. Sólo se reciben las tareas hasta el último día marcado, antes de las 11:59 pm
+4. No se reciben imágenes en el repositorio, sino es como anexos.
 
 ### Formato de Entrega
 1. Dentro del directorio principal de "teoria", cree otro directorio con nombre "tareaExamen1"
@@ -82,10 +83,7 @@ renglones de ı́ndice impar son cero. Obtenga el polinomio de direccionamiento 
     }
   }
 ```
-6. Diseñar un método recursivo borrar(L : ListaLigada, X : Dato) de forma recursiva. Este método eliminará de la lista el elemento tantas veces como este
-aparezca.
-
-7. Dé los polinomios de direccionamiento para:
+6. Dé los polinomios de direccionamiento para:
 
 a) encontrar el elemento i-ésimo en:
 
