@@ -1,8 +1,8 @@
 ## Tarea Examen1. Complejidad, TDA, Arreglos, Recursión y Polinomio de Direccionamiento
 
 ### Fechas
-Fecha de inicio:  25 de Febrero de 2025
-Fecha de fin: 07 de Marzo de 2025
+- Fecha de inicio:  25 de Febrero de 2025
+- Fecha de fin: 07 de Marzo de 2025
 
 ### Lineamientos
 1. Debe ser entregada en el repositorio personal de cada alumno
