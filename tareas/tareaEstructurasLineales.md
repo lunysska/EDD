@@ -1,7 +1,7 @@
 # Tarea Examen 2: Listas, Pilas, Colas y Tablas de Dispersión
 
 ## Fechas
-Fecha de inicio: 20 de Marzo de 2024 Fecha de fin: 04 de Abril de 2024
+Fecha de inicio: 14 de Marzo de 2025 Fecha de fin: 27 de Marzo de 2025
 
 ## Lineamientos
 Debe ser entregada en el repositorio personal de cada alumno
@@ -30,5 +30,5 @@ ventajas y desventajas.
 
 4. (2.5 pts) Redefina el TDA de Celda (que represente a la
 celda para una lista doblemente ligada), de manera tal que cada una tenga nombre y
-posición. Defina sus operaciones e incluya los axiomas necesarios para garantizar el correcto funcionamiento de la extructura.
+posición. Defina sus operaciones e incluya los axiomas necesarios para garantizar el correcto funcionamiento de la estructura.
 
