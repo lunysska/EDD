@@ -1,6 +1,6 @@
 # Tarea Examen3. Estructuras de datos arborescentes
 ## Fechas
-### Fecha de inicio: 11 de Abril de 2024 Fecha de fin: 24 de Abril de 2024
+### Fecha de inicio:En proceso, 2025 Fecha de fin: a tiempo antes de que termine el semestre
 
 ## Lineamientos
 Debe ser entregada en el repositorio personal de cada alumno
