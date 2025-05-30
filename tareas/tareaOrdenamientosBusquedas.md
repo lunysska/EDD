@@ -1,7 +1,7 @@
 ## Tarea Examen - Ordenamientos y Búsquedas
 
 ##### Lineamientos de entrega 
-Subir a su repositorio personal, en la sección de teoria, la subcarpeta contenedora debe llamarse **"tareaExamenOrdenamientosBusquedas"**
+Subir a su repositorio personal, en la sección de teoria, la subcarpeta contenedora debe llamarse **"tareaExOrdenamientosBusquedas"**
 
 Instrucciones
 1. Muestra los pasos COMPLETOS para ordenar el arreglo [5, 12, 22, 3, 55, 8, 3, 10] usando MergeSort [2.5 ptos].
