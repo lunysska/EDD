@@ -244,7 +244,8 @@ _Si φ y ψ son fórmulas bien formadas, entonces φ ⇒ ψ es una fórmula bien
 Los axiomas son fórmulas bien formadas que asumimos verdaderas y las reglas de inferencia permiten derivar nuevas fórmulas a partir de ellas, en la lógica proposicional contamos con los axiomas de Lukasiewicz:
 
 Como regla de inferencia tenemos el Modus Ponens:
-<img src="imagenes/Nota1_figuras/modusPonens.png" alt="modus ponens" width="500px"> 
+
+<img src="imagenes/Nota1_figuras/modusPonens.png" alt="modus ponens" width="100px"> 
 
 A partir de los axiomas de Lukasiewicz y el Modus Ponens podemos derivar todos los teoremas y conectivos de la lógica proposicional clásica. Hemos visto este breve repaso para que podamos comparar un sistema formal cualquiera con un TDA.
 
@@ -300,7 +301,8 @@ O escrito con una notación más familiar:
 _x ∨ x = x_
 
 Veamos dicha demostración:
-<img src="imagenes/Nota1_figuras/demostracion1.png" alt="demostracion de idempotencia para la disyunción" width="700px"> 
+
+<img src="imagenes/Nota1_figuras/demostracion1.png" alt="demostracion de idempotencia para la disyunción" width="500px"> 
 
 Como la cadena de igualdades puede leerse en ambas direcciones, concluimos:
 
@@ -321,19 +323,19 @@ Encadenando los resultados de una operación y sus postcondiciones con los argum
 
 Podemos resumir el recorrido conceptual de estas notas de la siguiente manera:
 
-- 1. La abstracción permite distinguir las características relevantes de un sistema.
+- La abstracción permite distinguir las características relevantes de un sistema.
 
-- 2. En programación, esa abstracción permite definir entidades y comportamientos relevantes para resolver un problema.
+- En programación, esa abstracción permite definir entidades y comportamientos relevantes para resolver un problema.
 
-- 3. Un TDA formaliza las operaciones y propiedades observables de una entidad sin compro- meterse con una implementación particular.
+- Un TDA formaliza las operaciones y propiedades observables de una entidad sin compro- meterse con una implementación particular.
 
-- 4. Una estructura de datos puede utilizarse para implementar un TDA.
+- Una estructura de datos puede utilizarse para implementar un TDA.
 
-- 5. En POO, las clases proporcionan implementaciones y los objetos son instancias manipulables de esas clases.
+- En POO, las clases proporcionan implementaciones y los objetos son instancias manipulables de esas clases.
 
-- 6. Los axiomas permiten razonar sobre el comportamiento del TDA y demostrar propiedades que se siguen de su especificación.
+- Los axiomas permiten razonar sobre el comportamiento del TDA y demostrar propiedades que se siguen de su especificación.
 
-- 7. Las precondiciones y postcondiciones permiten utilizar esas propiedades para razonar sobre la corrección de algoritmos.
+- Las precondiciones y postcondiciones permiten utilizar esas propiedades para razonar sobre la corrección de algoritmos.
 
 ## Referencias
 
