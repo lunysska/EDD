@@ -4,7 +4,8 @@ Estructuras de Datos
 
 Nota1: Tipos de dato abstracto
 
-## Profesora: Virginia Teodosio Procopio Ayudantes: Leonardo Gallo Guerrero José Manuel Madrigal Ramírez
+## Profesora: Virginia Teodosio Procopio 
+### Ayudantes: Leonardo Gallo Guerrero / José Manuel Madrigal Ramírez
 
 22 de Agosto de 2026
 
