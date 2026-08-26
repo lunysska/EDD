@@ -10,9 +10,7 @@ Nota1: Tipos de dato abstracto
 
 ## La abstracción
 
-La abstracción es el camino que utilizamos para entender la complejidad de la realidad. El resultado de ejercer la abstracción es una descripción simplificada de un sistema. Al
-
-abstraer llevamos a cabo dos tareas importantes:
+La abstracción es el camino que utilizamos para entender la complejidad de la realidad. El resultado de ejercer la abstracción es una descripción simplificada de un sistema. Al abstraer llevamos a cabo dos tareas importantes:
 
 - Enfatizar las características esenciales.
 
@@ -24,6 +22,7 @@ Por ejemplo:
 
 - En una caricatura el dibujante captura los rasgos relevantes mediante trazos simples y des- carta los que no se necesitan para entender sin ambigüedad aquello que está representando.
 
+<img src="imagenes/Nota1_figuras/Figura1.png" alt="Figura 1" width="700px"> 
 *Figura 1: La abstracción como transformación de un sistema complejo en una descripción simplificada.*
 
 ## TDA, estructuras de datos, clases y objetos
@@ -157,6 +156,7 @@ Idea central: el TDA especifica qué comportamiento debe observarse;
 
 la implementación determina cómo se lleva a cabo ese comportamiento.
 
+<img src="imagenes/Nota1_figuras/Figura2.png" alt="Figura 2" width="700px"> 
 *Figura 2: Relación conceptual entre TDA, interfaz, clase y objeto.*
 
 Que el TDA sólo indique qué hacen las operaciones y no cómo lo hacen tiene como consecuencia la separación del comportamiento y el estado interno del programa.
@@ -178,10 +178,6 @@ Por ejemplo, una posible implementación de Persona en Java podría ser:
 8 }
 9
 10 public String getNombre() {
-```
-
-
-```
 11 return nombre;
 12 }
 13
@@ -229,7 +225,7 @@ Recordemos que un sistema formal es una estructura sintáctica constituida por:
 
 Un ejemplo de sistema formal con el que estamos familiarizados es el de la lógica proposicional.
 
-
+<img src="imagenes/Nota1_figuras/Figura3.png" alt="Figura 3" width="700px"> 
 *Figura 3: Componentes conceptuales de un sistema formal.*
 
 ## Lógica proposicional
@@ -333,7 +329,8 @@ Los tipos de dato abstracto serán herramientas fundamentales al analizar la cor
 
 Encadenando los resultados de una operación y sus postcondiciones con los argumentos y precondiciones de otra, se forma una secuencia de deducciones que finalmente llevan a garantizar que los resultados son correctos.
 
-Figura 4: Encadenamiento de precondiciones y postcondiciones.
+<img src="imagenes/Nota1_figuras/Figura4.png" alt="Figura 4" width="700px"> 
+*Figura 4: Encadenamiento de precondiciones y postcondiciones.*
 
 ## Idea central
 
