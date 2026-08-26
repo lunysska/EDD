@@ -41,9 +41,7 @@ Una vez hecho el ejercicio de abstracción, el programador implementará las ide
 
 Esas ideas principales quedan formalizadas en un Tipo de Dato Abstracto.
 
-Los Tipos de Dato Abstracto son entidades teóricas que anteceden toda
-
-implementación.
+Los Tipos de Dato Abstracto son entidades teóricas que anteceden toda implementación.
 
 ## Un primer ejemplo: TDA Persona
 
@@ -82,51 +80,49 @@ crear : Cadena Entero -> Persona
 indica que la operación crear toma una cadena, un entero y nos regresa un TDA Persona.
 
 
-Dicho de otro modo, el dominio de la operación (o función) crear consiste en el producto cruz del conjunto de las cadenas y los enteros, mientras que su codominio está constituido por elementos del tipo Persona. ¿Eso quiere decir que estamos interpretando los tipos como conjuntos? En efecto, con dos pequeños matices: todos los tipos son conjuntos finitos y no todas las funciones son totales, es decir, hay funciones que no están definidas en algunos elementos del dominio.
+Dicho de otro modo, el dominio de la operación (o función) `crear` consiste en el producto cruz del conjunto de las cadenas y los enteros, mientras que su codominio está constituido por elementos del tipo `Persona`. ¿Eso quiere decir que estamos interpretando los tipos como conjuntos? En efecto, con dos pequeños matices: todos los tipos son conjuntos finitos y no todas las funciones son totales, es decir, hay funciones que no están definidas en algunos elementos del dominio (cabe recordar que en varios contextos las funciones de teoría de conjuntos se asume que son totales). 
 
 Si lo pensamos desde esta perspectiva, cuando declaramos una variable:
 
-int a = 3;
+`int a = 3;`
 
-1
-
-es como si dijéramos
+es como si dijéramos:
 
 Si recordamos la definición de función de nuestras clases de álgebra superior, una función es un conjunto de pares ordenados. Es decir, si el dominio de una función f es el conjunto A y su codominio es B, entonces
 
-f A×B.
+`f A×B`
 
 En caso de que tengamos una función que tome más de una entrada, como es el caso de nuestra función crear, su dominio es, a su vez, el producto cruz:
 
-Cadena Entero,
+`Cadena × Entero`,
 
-y su codominio es el conjunto Persona.
+y su codominio es el conjunto `Persona`.
 
 Podríamos pensar en otras funciones que también tomasen como dominio el mismo producto cruz
 
-Cadena Entero
+`Cadena × Entero`
 
-y cuyo codominio también fuese el conjunto Persona.
+y cuyo codominio también fuese el conjunto _Persona_.
 
 En realidad tendríamos tantas funciones como subconjuntos del triple producto cruz
 
-Cadena Entero Persona.
+`Cadena × Entero × Persona`
 
 El nombre de ese conjunto tan enorme es justamente:
 
-Cadena Entero Persona.
+_Cadena × Entero → Persona_
 
 Así, cuando escribimos
 
-crear : Cadena Entero -> Persona,
+`crear : Cadena × Entero -> Persona`,
 
 no queremos decir otra cosa que la etiqueta crear pertenece al conjunto de todas las funciones cuyo dominio es
 
-Cadena Entero
+_Cadena × Entero_
 
-y cuyo codominio es Persona. Dicho de otro modo:
+y cuyo codominio es _Persona_. Dicho de otro modo:
 
-crear (Cadena Entero Persona) .
+_crear ∈ Cadena × Entero → Persona_
 
 
 ## Variables como elementos de conjuntos
@@ -139,9 +135,8 @@ p : Persona, n : Cadena, e : Entero,
 
 bajo la interpretación de conjuntos podemos interpretarlas como declaraciones de pertenencia:
 
-```
-p Persona, n Cadena, e Entero.
-```
+_p ∈ Persona, n ∈ Cadena, e ∈ Entero._
+
 
 ## Axiomas y comportamiento
 
@@ -153,18 +148,13 @@ Como puede observarse, el TDA no da indicación alguna sobre cómo implementar l
 
 El procedimiento de diseño que involucra el TDA, las interfaces, clases y objetos podría visualizarse de la siguiente manera:
 
-Idea central: el TDA especifica qué comportamiento debe observarse;
-
-la implementación determina cómo se lleva a cabo ese comportamiento.
-
 <img src="imagenes/Nota1_figuras/Figura2.png" alt="Figura 2" width="700px"> 
 *Figura 2: Relación conceptual entre TDA, interfaz, clase y objeto.*
 
+
 Que el TDA sólo indique qué hacen las operaciones y no cómo lo hacen tiene como consecuencia la separación del comportamiento y el estado interno del programa.
 
-Únicamente tras especificar claramente las operaciones de un TDA podremos considerar estruc- turas de datos que las implementen.
-
-Por ejemplo, una posible implementación de Persona en Java podría ser:
+Únicamente tras especificar claramente las operaciones de un TDA podremos considerar estruc- turas de datos que las implementen. Por ejemplo, una posible implementación de Persona en Java podría ser:
 
 *Listing 2: Una implementación posible del TDA Persona en Java.*
 
@@ -235,9 +225,9 @@ En la lógica proposicional el lenguaje está constituido por:
 
 - Constantes: verdadero y falso.
 
-- Variables proposicionales: p, q, p1, p2, . . .
+- Variables proposicionales: p, q, p₁, p₂, . . .
 
-- Símbolos de operación:
+- Símbolos de operación: ¬, ⇒
 
 - Símbolos de agrupación: ( ).
 
@@ -245,15 +235,16 @@ Las fórmulas bien formadas se construyen mediante reglas recursivas de formaci�
 
 Por ejemplo, podemos tomar como reglas de formación:
 
-Si p es una variable proposicional, entonces p es una fórmula bien formada.
+_Si p es una variable proposicional, entonces p es una fórmula bien formada._
 
-Si φ es una fórmula bien formada, entonces (¬φ) es una fórmula bien formada.
+_Si φ es una fórmula bien formada, entonces (¬φ) es una fórmula bien formada._
 
-Si φ y ψ son fórmulas bien formadas, entonces
+_Si φ y ψ son fórmulas bien formadas, entonces φ ⇒ ψ es una fórmula bien formada_
 
 Los axiomas son fórmulas bien formadas que asumimos verdaderas y las reglas de inferencia permiten derivar nuevas fórmulas a partir de ellas, en la lógica proposicional contamos con los axiomas de Lukasiewicz:
 
 Como regla de inferencia tenemos el Modus Ponens:
+<img src="imagenes/Nota1_figuras/modusPonens.png" alt="modus ponens" width="500px"> 
 
 A partir de los axiomas de Lukasiewicz y el Modus Ponens podemos derivar todos los teoremas y conectivos de la lógica proposicional clásica. Hemos visto este breve repaso para que podamos comparar un sistema formal cualquiera con un TDA.
 
@@ -264,7 +255,6 @@ Aquí tenemos otro tipo de dato abstracto, esta vez formaliza la idea detrás de
 *Listing 3: Especificación del TDA Booleano.*
 
 TDA Booleano
-
 
 ```
 CONSTANTES
@@ -293,11 +283,9 @@ Es fácil ver el paralelismo: las constantes, las variables y las operaciones so
 
 Las reglas para la combinación de nuestros símbolos obedecen al diseño de nuestro pseudocódigo, los axiomas son fórmulas bien formadas.
 
-Pero ¿cuál es la regla de inferencia en este caso? No es otra que la regla de sustitución
+Pero ¿cuál es la regla de inferencia en este caso? No es otra que la regla de sustitución textual, la misma operación de sustitución cuya definición formal suele abordarse en un curso de matemáticas discretas.
 
-textual, la misma operación de sustitución cuya definición formal suele abordarse en un curso de matemáticas discretas.
-
-Dado que la fórmula original P es una tautología, la nueva expresión P[p (r s)] resultante es garantizadamente una tautología.
+Por ejemplo, dado que una fórmula bien formada _P_ es una tautología, la nueva expresión P[x := p → (r → s)] resultante es garantizadamente una tautología.
 
 ## Demostración de una propiedad del TDA Booleano
 
@@ -305,22 +293,18 @@ Podemos utilizar los axiomas dentro del TDA para demostrar propiedades del mismo
 
 Por ejemplo, en el caso de nuestro TDA Booleano nos gustaría que cumpliera con la regla de idempotencia:
 
+`or (x, x) = x`
+
 O escrito con una notación más familiar:
 
-x
-
-x = x.
-
+_x ∨ x = x_
 
 Veamos dicha demostración:
-
-x = or(x, falso) = or(x, and(x, not(x))) = and(or(x, x), or(x, not(x))) = and(or(x, x), verdadero) = or(x, x)
-
-B1b, B2b B4a B3b B4b B1a, B2a.
+<img src="imagenes/Nota1_figuras/demostracion1.png" alt="demostracion de idempotencia para la disyunción" width="700px"> 
 
 Como la cadena de igualdades puede leerse en ambas direcciones, concluimos:
 
-or(x, x) = x .
+`or(x, x) = x`
 
 La importancia de este ejercicio es que la propiedad de idempotencia no aparece como un axioma del TDA: se demuestra a partir de los axiomas. Y con total certeza podemos asegurar que toda implementación que satisfaga los axiomas del TDA tambié podrá satisfacer la idempotencia.
 
@@ -345,8 +329,7 @@ Podemos resumir el recorrido conceptual de estas notas de la siguiente manera:
 
 - 4. Una estructura de datos puede utilizarse para implementar un TDA.
 
-- 5. En POO, las clases proporcionan implementaciones y los objetos son instancias manipu- lables de esas clases.
-
+- 5. En POO, las clases proporcionan implementaciones y los objetos son instancias manipulables de esas clases.
 
 - 6. Los axiomas permiten razonar sobre el comportamiento del TDA y demostrar propiedades que se siguen de su especificación.
 
