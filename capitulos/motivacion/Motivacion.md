@@ -34,6 +34,21 @@ Ejemplo 1.<br>
 
 En el ejemplo se muestra una organización de los datos por color, para la ropa en muchas ocasiones eso es muy útil y conveniente para clientes de una Store, sin embargo la mismas reglas aplicadas para organizar a libros, parace no ser tan recomendada en la mayoría de los casos.
 
+## 4. ¿Qué son las estructuras de datos?
+De manera general, son las formas (basadas en algoritmos) en las que se almacenan y organizan los datos para lograr acceder a ellos de manera eficiente (tiempo y a la memoria).
 
+## 5. ¿Qué acciones queremos hacer sobre los datos?
+
+Por mencionar algunas:
+- Agregar elementos
+- Borrar elementos
+- Actualizar elementos
+- Acceder a un elemento
+
+- Ordenar los datos
+- Obtener el primer elemento
+- Obtener el último elemento ...
+
+Estas operaciones pueden entrar en una clasificación: las operaciones básicas vs las operaciones secundarias
 
 
