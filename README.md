@@ -4,7 +4,7 @@ Este curso forma parte de los complementos a desarrollar para el curso de Estruc
 [Tareas](capitulos/tareas.md)<br>
 [Proyecto Final](capitulos/proyectoFinal.md)
 
-1. Motivación
+1. [Motivación](capitulos/motivacion/Motivacion.md)
 2. Introducción
 3. [TDA](capitulos/TDA.md)
 4. [El tiempo de ejecución de un programa](capitulos/moduloTiempoEjecuciónPrograma.md)
