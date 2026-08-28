@@ -6,4 +6,10 @@ En la vida siempre tenemos “colecciones” de elementos (datos) y no necesaria
 Ejemplo 1.<br>
 ![libros Desordenados](imgs/librosDesordenados.png)
 
+Ejemplo 2.<br>
+![ropa Desordenada](imgs/ropaDesordenada.png)
+
+Ejemplo 3.<br>
+![medicamento Desordenado](imgs/medicamentoDesordenado.png)
+
 
