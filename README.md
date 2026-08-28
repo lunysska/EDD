@@ -12,7 +12,7 @@ Este curso forma parte de los complementos a desarrollar para el curso de Estruc
         1. Definición de O-grande
         2. Las reglas de la suma y el producto
     - 2.4 [Recursión](capitulos/recursion.md)
-        2.4.1 Cálculo de complejidad para algoritmos recursivos
+          2.4.1 Cálculo de complejidad para algoritmos recursivos
 7. Estructuras de datos
    1. Definición
    2. Operaciones
