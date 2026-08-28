@@ -16,10 +16,13 @@ Ejemplo 3.<br>
 
 Si bien ordenar nuestros objetos conlleva una tarea no siempre "fácil", es mejor tenerlas ordenarlas para poder tener acceso a los objetos de manera general.
 
+Ejemplo 1.<br>
 ![medicamento Desordenado](imgs/comparativoLibros.png)<br>
 
+Ejemplo 2.<br>
 ![medicamento Desordenado](imgs/comparativoRopa.png)<br>
 
+Ejemplo 3.<br>
 ![medicamento Desordenado](imgs/comparativoMedicamento.png)
 
 ## 3. ¿Qué reglas de almacenamiento-organización se siguen? ¿sirven las mismas reglas a todos los datos?
