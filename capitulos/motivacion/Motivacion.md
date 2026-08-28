@@ -27,6 +27,13 @@ Ejemplo 3.<br>
 
 ## 3. ¿Qué reglas de almacenamiento-organización se siguen? ¿sirven las mismas reglas a todos los datos?
 
+Hay muchas formas de organización de objetos dentro de una colección, sin embargo no todas estas formas sirven para todos los datos, depende de la naturaleza de los objetos y lo que se quiere hacer con ellos.
+
+Ejemplo 1.<br>
+![medicamento Desordenado](imgs/ordenPorColor.png)
+
+En el ejemplo se muestra una organización de los datos por color, para la ropa en muchas ocasiones eso es muy útil y conveniente para clientes de una Store, sin embargo la mismas reglas aplicadas para organizar a libros, parace no ser tan recomendada en la mayoría de los casos.
+
 
 
 
