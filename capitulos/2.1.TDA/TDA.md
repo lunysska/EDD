@@ -2,7 +2,7 @@
 
 ## 1.1 ¿Qué es esto?
 
-![libros Desordenados](images/punto.png)<br>
+![libros Desordenados](images/punto.png {width=300}))<br>
 La imagen puede representar un punto.
 
 ![libros Desordenados](images/constelaciones.png)<br>
