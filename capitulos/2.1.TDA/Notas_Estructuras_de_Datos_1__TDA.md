@@ -23,7 +23,7 @@ Por ejemplo:
 
 - En una caricatura el dibujante captura los rasgos relevantes mediante trazos simples y des- carta los que no se necesitan para entender sin ambigüedad aquello que está representando.
 
-<img src="imagenes/Nota1_figuras/Figura1.png" alt="Figura 1" width="700px"> 
+<img src="images/Nota1_figuras/Figura1.png" alt="Figura 1" width="700px"> 
 *Figura 1: La abstracción como transformación de un sistema complejo en una descripción simplificada.*
 
 ## TDA, estructuras de datos, clases y objetos
@@ -148,7 +148,7 @@ Como puede observarse, el TDA no da indicación alguna sobre cómo implementar l
 
 El procedimiento de diseño que involucra el TDA, las interfaces, clases y objetos podría visualizarse de la siguiente manera:
 
-<img src="imagenes/Nota1_figuras/Figura2.png" alt="Figura 2" width="700px"> 
+<img src="images/Nota1_figuras/Figura2.png" alt="Figura 2" width="700px"> 
 *Figura 2: Relación conceptual entre TDA, interfaz, clase y objeto.*
 
 
@@ -216,7 +216,7 @@ Recordemos que un sistema formal es una estructura sintáctica constituida por:
 
 Un ejemplo de sistema formal con el que estamos familiarizados es el de la lógica proposicional.
 
-<img src="imagenes/Nota1_figuras/Figura3.png" alt="Figura 3" width="700px"> 
+<img src="images/Nota1_figuras/Figura3.png" alt="Figura 3" width="700px"> 
 *Figura 3: Componentes conceptuales de un sistema formal.*
 
 ## Lógica proposicional
@@ -245,7 +245,7 @@ Los axiomas son fórmulas bien formadas que asumimos verdaderas y las reglas de 
 
 Como regla de inferencia tenemos el Modus Ponens:
 
-<img src="imagenes/Nota1_figuras/modusPonens.png" alt="modus ponens" width="100px"> 
+<img src="images/Nota1_figuras/modusPonens.png" alt="modus ponens" width="100px"> 
 
 A partir de los axiomas de Lukasiewicz y el Modus Ponens podemos derivar todos los teoremas y conectivos de la lógica proposicional clásica. Hemos visto este breve repaso para que podamos comparar un sistema formal cualquiera con un TDA.
 
@@ -302,7 +302,7 @@ _x ∨ x = x_
 
 Veamos dicha demostración:
 
-<img src="imagenes/Nota1_figuras/demostracion1.png" alt="demostracion de idempotencia para la disyunción" width="500px"> 
+<img src="images/Nota1_figuras/demostracion1.png" alt="demostracion de idempotencia para la disyunción" width="500px"> 
 
 Como la cadena de igualdades puede leerse en ambas direcciones, concluimos:
 
@@ -316,7 +316,7 @@ Los tipos de dato abstracto serán herramientas fundamentales al analizar la cor
 
 Encadenando los resultados de una operación y sus postcondiciones con los argumentos y precondiciones de otra, se forma una secuencia de deducciones que finalmente llevan a garantizar que los resultados son correctos.
 
-<img src="imagenes/Nota1_figuras/Figura4.png" alt="Figura 4" width="700px"> 
+<img src="images/Nota1_figuras/Figura4.png" alt="Figura 4" width="700px"> 
 *Figura 4: Encadenamiento de precondiciones y postcondiciones.*
 
 ## Idea central
