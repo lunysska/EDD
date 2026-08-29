@@ -6,7 +6,7 @@ Este curso forma parte de los complementos a desarrollar para el curso de Estruc
 
 1. [Motivación](capitulos/motivacion/Motivacion.md)
 2. Introducción
-    - 2.1 [TDA](capitulos/2.1./TDA/TDA.md)
+    - 2.1 [TDA](capitulos/2.1.TDA/TDA.md)
     - 2.2  [El tiempo de ejecución de un programa](capitulos/moduloTiempoEjecuciónPrograma.md)
     - 2.3 [Introducción a la complejidad de algoritmos](capitulos/complejidadComputacional.md)
         1. Definición de O-grande
