@@ -8,6 +8,6 @@ En seguida se comparte el enlace al almacén [LeonardoGallo](https://github.com/
 
 ## Prácticas
 
-1. [Práctica 1](#laboratorio/practica01.md) -> TDAs y POO
+1. [Práctica 1](laboratorio/practica01.md) -> TDAs y POO
 2. 
 
