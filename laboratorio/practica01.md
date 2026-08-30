@@ -61,8 +61,8 @@ Ubicación de las plantillas, [aquí](https://github.com/CCLaboratorio/LeonardoG
 2. Solicitar las credenciales mediante la consola.
 3. Comparar las credenciales proporcionadas con los usuarios registrados.
 4. Mostrar un mensaje de autenticación.
-    4.1 Crear un objeto User y mostrar su información en el mensaje cuando las credenciales sean correctas.
-    4.2 Mostrar un mensaje de error cuando sean incorrectas.
+   1. Crear un objeto User y mostrar su información en el mensaje cuando las credenciales sean correctas.
+   2. Mostrar un mensaje de error cuando sean incorrectas.
 
 ## Extra
 
