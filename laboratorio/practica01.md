@@ -1,9 +1,9 @@
 # Práctica 1: Implementación de un sistema de autenticación
 
-**Tema:** Tipos de Datos Abstractos (TDA) y Programación Orientada a Objetos (POO).
-**Lenguaje:** Java.
-**Entrega:** Individual a través del almacén privado asignado por el laboratorista.
-**Fecha de entrega:** Martes 8 de septiembre a las 11:59 AM.
+**Tema:** Tipos de Datos Abstractos (TDA) y Programación Orientada a Objetos (POO).<br>
+**Lenguaje:** Java..<br>
+**Entrega:** Individual a través del almacén privado asignado por el laboratorista..<br>
+**Fecha de entrega:** Martes 8 de septiembre a las 11:59 AM..<br>
 **Elaboró:** [Leonardo Gallo](https://github.com/lngallo)
 
 ## Descripción 
@@ -46,7 +46,7 @@ La aplicación deberá:
 El proyecto contiene diversos componentes, de los cuales sólo trabajaras con algunos, y cada uno responde a las responsabilidades especificadas en la tabla:
 
 | Componente | Responsabilidad |
-|--|--|
+|---|---|
 | User | Representar al usuario activo en la aplicación |
 |--|--|
 | LoginView | Permitir la interacción con el usuario |
