@@ -48,15 +48,10 @@ El proyecto contiene diversos componentes, de los cuales sólo trabajaras con al
 | Componente | Responsabilidad |
 |---|---|
 | User | Representar al usuario activo en la aplicación |
-|---|---|
 | LoginView | Permitir la interacción con el usuario |
-|---|---|
 | LoginController | Coordinar el proceso de autenticación |
-|---|---|
 | UserDTO | Obtener los usuarios desde el archivo |
-|---|---|
 | Main | Iniciar la aplicación |
-|---|---|
 
 ## Requerimientos
 
