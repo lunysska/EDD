@@ -6,3 +6,8 @@ En esta sección se proporciona la descripción de cada práctica que complement
 
 En seguida se comparte el enlace al almacén [LeonardoGallo](https://github.com/CCLaboratorio/LeonardoGallo), este contiene también información relevante para la configuración del entorno de trabajo e irá complementando esta sección. En específico para este curso las plantillas se ubicarán en la carpeta [edd](https://github.com/CCLaboratorio/LeonardoGallo/tree/main/edd) de dicho almacén.
 
+## Prácticas
+
+1. [Práctica 1](#laboratorio/practica01.md) -> TDAs y POO
+2. 
+
