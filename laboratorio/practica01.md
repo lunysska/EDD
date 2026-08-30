@@ -16,9 +16,9 @@ la consola como interfaz de interacción.
 
 La práctica busca que el alumno pase de la identificación de conceptos de la POO a su aplicación dentro de una solución estructurada.
 
-## Ojetivo
+## Objetivo
 
-Al finalizar la práctica, el estudiante implementará en Java un sistema de autenticación funcional utilizando el patrón Modelo–Vista–Controlador (MVC),
+Al finalizar la práctica, el alumno implementará en Java un sistema de autenticación funcional utilizando el patrón Modelo–Vista–Controlador (MVC),
  una clase que represente al usuario como TDA y un archivo de texto como fuente de datos, aplicando encapsulamiento, abstracción, herencia 
 y polimorfismo cuando sean pertinentes a la solución, y demostrará su funcionamiento mediante casos de prueba de autenticación exitosa y fallida.
 
