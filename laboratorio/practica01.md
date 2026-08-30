@@ -53,6 +53,8 @@ El proyecto contiene diversos componentes, de los cuales sólo trabajaras con al
 | UserDTO | Obtener los usuarios desde el archivo |
 | Main | Iniciar la aplicación |
 
+Ubicación de las plantillas, [aquí](https://github.com/CCLaboratorio/LeonardoGallo/tree/main/edd/src/java/login).
+
 ## Requerimientos
 
 1. Leer los usuarios desde un archivo llamada __resources/users.txt__.
