@@ -57,7 +57,7 @@ Ubicación de las plantillas, [aquí](https://github.com/CCLaboratorio/LeonardoG
 
 ## Requerimientos
 
-1. Leer los usuarios desde un archivo llamada __resources/users.txt__.
+1. Leer los usuarios desde un archivo llamado __resources/users.txt__.
 2. Solicitar las credenciales mediante la consola.
 3. Comparar las credenciales proporcionadas con los usuarios registrados.
 4. Mostrar un mensaje de autenticación.
@@ -73,7 +73,7 @@ Ubicación de las plantillas, [aquí](https://github.com/CCLaboratorio/LeonardoG
 ## Criterios de evaluación
 
 1. El programa compila y se ejecuta correctamente.
-2. Los usuarios se obtienen desde users.txt.
+2. Los usuarios se obtienen desde __resources/users.txt__.
 3. La información del usuario se representa mediante objetos.
 4. La interacción se realiza mediante consola.
 5. Las credenciales correctas permiten iniciar sesión.
