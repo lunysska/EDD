@@ -12,10 +12,10 @@ Sea *P* un patrón y *T* un texto, encontrar las veces que aparece *P* en *T* y 
 
 ## 2.2.2. Diferentes soluciones para un mismo algoritmo
 
-**Algoritmo 1**. Diseñando el algoritmo para string matching
+**Algoritmo 1**. Diseñando el algoritmo para string matching<br>
 ![libros Desordenados](images/algoritmo1.png)<br>
 
-Si hacemos una búsqueda de soluciones para este problema, veremos que hay muchas posibilidades.
+Si hacemos una búsqueda de soluciones para este problema, veremos que hay muchas posibilidades.<br>
 ![libros Desordenados](images/muchosAlgoritmos.png)<br>
 
 **Algoritmo2.** Árboles sufijos
@@ -31,9 +31,9 @@ Esta seria la manera de representar a todos los sufijos en un árbol
 
 ## 2.2.3 Eligiendo un algoritmo para resolver un problema
 
-Elegir un algoritmo que es fácil de entender, codificar, “debuggear”
-vs
-Elegir un algoritmo que hace un uso eficiente de los recursos de la computadora y particularmente que corre tan rápido como le es posible.
+Elegir un algoritmo que es fácil de entender, codificar, “debuggear”<br>
+vs<br>
+Elegir un algoritmo que hace un uso eficiente de los recursos de la computadora y particularmente que corre tan rápido como le es posible.<br>
 
 ## 2.2.4 Medida del tiempo de ejecución de un programa
 
