@@ -20,7 +20,7 @@ Si hacemos una búsqueda de soluciones para este problema, veremos que hay mucha
 
 **Algoritmo2.** Árboles sufijos
 
-¿Qué es un sufijo?
+¿Qué es un sufijo?<br>
 ![libros Desordenados](images/prefijos.png)<br>
 
 ¿Cuántos sufijos tiene el texto T=“xabxac” P=xaz?
