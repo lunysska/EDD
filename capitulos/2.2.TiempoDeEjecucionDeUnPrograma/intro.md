@@ -54,12 +54,4 @@ Si graficamos esos valores, obtenemos está gráfica:
 
 Este método es muy bueno para poder hacer una elección de cuál programa es mejor, sin embargo también tiene desventajas, (las ya mencionadas,necesarias para poderlos programar) entre ellas que no sabemos qué pasa más allá de la **n** probada y que tampoco podemos **probarlos para todas las entradas n**.
 
-## 2.2.5 
-
-
-
-
-
-
-
 
