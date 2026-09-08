@@ -44,6 +44,11 @@ El tiempo de ejecución depende de varios factores.
 - S.O.
 - El tiempo de complejidad del algoritmo
 
+## 2.2.5 Comparando el tiempo de ejecución de dos programas que resuelven el mismo problema.
+
+Supongamos que tenemos dos programas que resuelven el mismo problema de diferente manera y que, "de algún modo", nos hemos quitado los factores que se mencionan en el punto 2.2.4.
+Entonces para dos entradas diferentes podemos tener estos valores
+
 
 
 
