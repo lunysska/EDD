@@ -47,7 +47,17 @@ El tiempo de ejecución depende de varios factores.
 ## 2.2.5 Comparando el tiempo de ejecución de dos programas que resuelven el mismo problema.
 
 Supongamos que tenemos dos programas que resuelven el mismo problema de diferente manera y que, "de algún modo", nos hemos quitado los factores que se mencionan en el punto 2.2.4.
-Entonces para dos entradas diferentes podemos tener estos valores
+Entonces para dos programas diferentes podemos tener estos valores:
+![libros Desordenados](images/tabulador.png)<br>
+Si graficamos esos valores, obtenemos está gráfica:
+![libros Desordenados](images/comparacion.png)<br>
+
+Este método es muy bueno para poder hacer una elección de cuál programa es mejor, sin embargo también tiene desventajas, (las ya mencionadas,necesarias para poderlos programar) entre ellas que no sabemos qué pasa más allá de la **n** probada y que tampoco podemos **probarlos para todas las entradas n**.
+
+## 2.2.5 
+
+
+
 
 
 
