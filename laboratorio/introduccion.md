@@ -9,5 +9,6 @@ En seguida se comparte el enlace al almacén [LeonardoGallo](https://github.com/
 ## Prácticas
 
 1. [Práctica 1](practica01.md) -> TDAs y POO
-2. 
+2. [Práctica 2](practica02.md) -> Tiempo de ejecución
+3. 
 
