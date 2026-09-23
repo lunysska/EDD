@@ -25,15 +25,16 @@ Sea _Q_ =  a1, a2, ..., an una subsecuencia de n enteros (posiblemente negativos
 
 ## Ejercicios
 
-Usando el código que se te proporciona[aquí](https://github.com/CCLaboratorio/LeonardoGallo/tree/main/edd/src/java/login), resuelve y responde lo siguiente:
-       1. Tomar el tiempo de ejecución para cada algoritmo usando secuencas de enteros muy grandos (100, 200, 300, 400, 500 elementos). El tiempo de ejecución se puede calcular con el reloj de java (revisa el método _System.currentTimeMillis()_).
-       2. Responder las siguientes preguntas:
-       	  i) ¿Siempre se obtienen los mismos resultados de tiempo al usar las mismas secuencias de enteros?
-	  ii) ¿Qué factores alteran los tiempos de ejecución?
-	  iii) ¿Qué puede minimizar estos factores?
-	  iv) ¿Cuál implementación esperas que tenga mejor tiempo de ejecución? ¿Por qué?
-       3. Graficar y comparar los resultados obtenidos en los puntos 1 y 2.
-       4. Elabora un análisis, no necesariamente formal, de lo que tarda cada algoritmo en ejecutarse respecto a una entrada de n elementos, basándose sólo en el algoritmo y no en los factores de su implementación.
+Usando el código que se te proporciona [aquí](https://github.com/CCLaboratorio/LeonardoGallo/tree/main/edd/src/java/login), resuelve y responde lo siguiente:
+
+1. Tomar el tiempo de ejecución para cada algoritmo usando secuencas de enteros muy grandos (100, 200, 300, 400, 500 elementos). El tiempo de ejecución se puede calcular con el reloj de java (revisa el método _System.currentTimeMillis()_).
+2. Responder las siguientes preguntas:
+   1. ¿Siempre se obtienen los mismos resultados de tiempo al usar las mismas secuencias de enteros?
+   2. ¿Qué factores alteran los tiempos de ejecución?
+   3. ¿Qué puede minimizar estos factores?
+   4. ¿Cuál implementación esperas que tenga mejor tiempo de ejecución? ¿Por qué?
+3. Graficar y comparar los resultados obtenidos en los puntos 1 y 2.
+4. Elabora un análisis, no necesariamente formal, de lo que tarda cada algoritmo en ejecutarse respecto a una entrada de n elementos, basándose sólo en el algoritmo y no en los factores de su implementación.
 
 Sugerencia: Para crear las secuencias de enteros para probar los ejercicios 1 y 2, puedes obtener números aleatorios con los métodos random disponibles en la bibliotecas de java y generar arreglos de enteros.
 
