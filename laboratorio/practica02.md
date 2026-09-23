@@ -25,7 +25,7 @@ Sea _Q_ =  a1, a2, ..., an una subsecuencia de n enteros (posiblemente negativos
 
 ## Ejercicios
 
-Usando el código que se te proporciona [aquí](https://github.com/CCLaboratorio/LeonardoGallo/tree/main/edd/src/java/login), resuelve y responde lo siguiente:
+Usando el código que se te proporciona [aquí](https://github.com/CCLaboratorio/LeonardoGallo/tree/main/edd/src/java/util), en la clase _SequenceOfIntegers_, resuelve y responde lo siguiente:
 
 1. Tomar el tiempo de ejecución para cada algoritmo usando secuencas de enteros muy grandos (100, 200, 300, 400, 500 elementos). El tiempo de ejecución se puede calcular con el reloj de java (revisa el método _System.currentTimeMillis()_).
 2. Responder las siguientes preguntas:
