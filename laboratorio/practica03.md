@@ -1,6 +1,12 @@
-Práctica: Sistema de inventario de una tienda
+# Práctica 3: Sistema de inventario de una tienda
 
-Contexto
+**Tema:** Arreglos<br>
+**Lenguaje:** Java.<br>
+**Entrega:** Individual a través del almacén privado asignado por el laboratorista.<br>
+**Fecha de entrega:** Domingo 6 de octubre a las 11:59 AM.<br>
+**Elaboró:** [Leonardo Gallo](https://github.com/lngallo)
+
+## Contexto
 Una pequeña tienda necesita un programa para controlar los productos disponibles en su inventario. Por simplicidad, la tienda puede manejar como máximo 50 productos.
 
 Cada producto tendrá:
@@ -11,8 +17,10 @@ Cada producto tendrá:
 
 El sistema deberá utilizar arreglos para almacenar y administrar la información.
 
-Objetivo
+##Objetivo
+
 Diseñar e implementar un programa que utilice arreglos para almacenar, consultar, modificar y analizar información de un inventario.
 
-Problema
+##Problema
+
 Desarrolla un programa que muestre el siguiente menú:
