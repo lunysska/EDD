@@ -27,10 +27,10 @@ Desarrolla un programa que muestre el siguiente menú:
 
 **INVENTARIO - Menú de opciones**
 
-**_1. Registrar producto_<br>**
-**_2. Mostrar inventario_<br>**
+**_1. Registrar producto_** <br>
+**_2. Mostrar inventario_** <br>
 3. Buscar producto<br>
-**_4. Actualizar producto_<br>**
+**_4. Actualizar producto_** <br>
 5. Mostrar productos con existencia baja<br>
 6. Calcular valor total del inventario<br>
-7. Salir<br>
+**_7. Salir_** <br>
