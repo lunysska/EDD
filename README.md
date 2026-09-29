@@ -10,20 +10,21 @@ Este curso forma parte de los complementos a desarrollar para el curso de Estruc
     - 2.1 [TDA](capitulos/2.1.TDA/TDA.md)
     - 2.2  [El tiempo de ejecución de un programa](capitulos/2.2.TiempoDeEjecucionDeUnPrograma/intro.md)
     - 2.3 [Introducción a la complejidad de algoritmos](capitulos/complejidadComputacional.md)
-        1. Definición de O-grande
-        2. Las reglas de la suma y el producto
+        1. Contando operaciones en algoritmos secuenciales, condicionales, cíclicos     
+        2. Definición de O-grande
+        3. Las reglas de la suma y el producto
     - 2.4 [Recursión](capitulos/recursion.md)
         1. Cálculo de complejidad para algoritmos recursivos
 7. Estructuras de datos
    1. Definición
-   2. Operaciones
-   3. Clasificaciòn.    
+   2. Operaciones: básicas y secundarias
+   3. Clasificaciòn (lineales vs arborescentes)
 8. Arreglos.
-   1. Polinomio de direccionamiento
-   2. Características
-   3. De una dimensión
-   4. De dos dimensiones
-   5. Definicion formal general<br>
+   1. Características
+   2. Polinomio de direccionamiento
+   3. Arreglo de una dimensión
+   5. Arreglo de dos dimensiones
+   6. Definicion formal general<br>
    *. **Tarea:** Tarea con puntos extras: Hacer un esquema del polinomio para dos dimensiones<br>
 9. Estructuras de datos lineales.
    1. [Listas ligadas](capitulos/listasLigadas.md)
