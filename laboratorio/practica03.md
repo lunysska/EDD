@@ -1,6 +1,6 @@
 # Práctica 3: Sistema de inventario de una tienda
 
-**Tema:** Arreglos<br>
+**Tema:** Arreglos.<br>
 **Lenguaje:** Java.<br>
 **Entrega:** Individual a través del almacén privado asignado por el laboratorista.<br>
 **Fecha de entrega:** Domingo 6 de octubre a las 11:59 AM.<br>
@@ -27,10 +27,10 @@ Desarrolla un programa que muestre el siguiente menú:
 
 **INVENTARIO - Menú de opciones**
 
-_1. Registrar producto_
-_2. Mostrar inventario_
-3. Buscar producto
-_4. Actualizar producto_
-5. Mostrar productos con existencia baja
-6. Calcular valor total del inventario
-7. Salir
+_1. Registrar producto_<br>
+_2. Mostrar inventario_<br>
+3. Buscar producto<br>
+_4. Actualizar producto_<br>
+5. Mostrar productos con existencia baja<br>
+6. Calcular valor total del inventario<br>
+7. Salir<br>
