@@ -17,10 +17,20 @@ Cada producto tendrá:
 
 El sistema deberá utilizar arreglos para almacenar y administrar la información.
 
-##Objetivo
+## Objetivo
 
 Diseñar e implementar un programa que utilice arreglos para almacenar, consultar, modificar y analizar información de un inventario.
 
-##Problema
+## Problema
 
 Desarrolla un programa que muestre el siguiente menú:
+
+**INVENTARIO - Menú de opciones**
+
+_1. Registrar producto_
+_2. Mostrar inventario_
+3. Buscar producto
+_4. Actualizar producto_
+5. Mostrar productos con existencia baja
+6. Calcular valor total del inventario
+7. Salir
