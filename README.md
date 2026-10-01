@@ -20,7 +20,7 @@ Este curso forma parte de los complementos a desarrollar para el curso de Estruc
    1. Definición
    2. Operaciones: básicas y secundarias
    3. Clasificaciòn (lineales vs arborescentes)
-8. Arreglos.
+8. [Arreglos](capitulos/4.Arreglos/Arreglos.md)
    1. Características
    2. Polinomio de direccionamiento
    3. Arreglo de una dimensión
