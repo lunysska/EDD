@@ -13,6 +13,7 @@
 - [Arreglos escalonados](#6)
 
 <div id='0' />
+  
 ## Introducción
 Los arreglos son estructuras muy sencillas y ampliamente utilizadas. Para definirlos adoptaremos dos enfoques, uno formal y otro más práctico. Este último, asociado al uso conceptual de la memoria, nos permitirá comprender el costo computacional de sus operaciones usuales.  <br>
 
