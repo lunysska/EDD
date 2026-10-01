@@ -90,28 +90,57 @@ que también podemos visualizar de la siguiente manera,
 </div>
 
 en un arreglo de arreglos de arreglos; y que queremos encontrar su posición efectiva $p(C[5][5][1])$ en nuestra memoria, que, como habíamos dicho, puede conceptualizarse como un arreglo unidimensional. <br>
-En este caso debemos multiplicar la primer entrada de nuestro vector de índices $i_1 = 5$ por el producto de los tamaños de las dimensiones siguiente $n_2 \times n_3$. Posteriormente debemos multiplicar la segunda entrada de nuestro vector de índices 
+En este caso debemos multiplicar la primer entrada de nuestro vector de índices $i_1 = 5$ por el producto de los tamaños de las dimensiones siguiente $n_2 \times n_3$. Esto nos permite avanzar todas las celdas hasta el punto en el que comienza el $i_1$-ésimo arreglo de dimensión 2 y tamaño $n_2 = 5$. A ese resultado debemos sumarle el producto de la segunda entrada de nuestro vector de índices $i_2 = 5$ por el tamaño del $n_3 = 3$ de los arreglos unidimensionales. Finalmente sumamos la tercer entrada de nuestro vector de índices $i_3 = 1$:
 
 $$i_1 \cdot n_2 \cdot n_3 + i_2 \cdot n_3 + i_3 = 5 \cdot 5  \cdot 3 +  5 \cdot 3  + 1$$
 
-### Polinomio generalizado
-Retomando nuestros conceptos de la definición con la que comenzamos esta atención 
+A dicho producto debemos multiplicarlo por el tamaño  en bytes del tipo Int, es decir, por cuatro y, finalmente, sumarle la dirección efectiva del comienzo del arreglo en memoria a la que nos referimos como $dir(C)$. 
 
-## Operaciones con arreglos 
+### Polinomio generalizado
+Retomando nuestros conceptos de la definición con la que comenzamos esta nota, si tenemos un arreglo $A$, de tipo $X$, dimensión $d$, tamaño $n = n_1 \cdot n_2 \cdot \ldot \cdot n_d$ y dirección $dir(A)$ en memoria; el polinomio de direccionamiento que nos da la posición efectiva de la celda $A[i_1][i_2]\ldots[i_d]$ es:
+
+$$p(A[i_1][i_2]\ldots[i_d]) = dir(A) + tamaño(X)\cdot\sum_{t = 1}^{d}i_t\prod_{s=t+1}^{d}n_s$$
+
+donde, por convención, decimos que $\prod_{s=d+1}^{d}n_s = 1$.
+
+## Operaciones sobre arreglos 
 Los arreglos son estructuras estáticas, esto quiere decir que una vez reservada la memoria y asignadas sus celdas a valores específicos, 
 obtendremos una estructura que no cambiará en tiempo de ejecución. <br>
 
-La principal desventaja es que tanto borrar un elemento como aumentar el tamaño de un arreglo dado tomará tiempo lineal $O(n)$ con $n$ el tamaño del arreglo. En el primer caso, supongamos que tenemos un arreglo $A$ de dimensión $d$, y tamaño $n$. <br> 
+La principal desventaja es que tanto **borrar un elemento** como** aumentar el tamaño** de un arreglo dado tomará tiempo lineal $O(n)$ con $n$ el tamaño del arreglo. En el primer caso, supongamos que tenemos un arreglo $A$ de dimensión $d$, y tamaño $n$. <br> 
 Para borrar el elemento de una celda, digamos $A[i]$, tendremos que reemplazarlo por el contenido de la celda $A[i+1]$. A su vez, el contenido de la celda $A[i+2]$ debe reemplazar al contenido de la celda $A[i + 1]$ y así sucesivamente hasta que reemplacemos el contenido de la celda $A[n-2]$ por el contenido de la celda $A[n-1]$. En total habremos hecho $(n-1) - (i + 1) + 1 = n - i - 1$. En caso de que  operaciones de copia  consideramos eliminar el contenido de la celda A[0] entonces haríamos $n - 1$ operaciones. <br>
-Ahora bien, si queremos aumentar el tamaño del arreglo, $A$ de tipo $X$ y tamaño $n$, al tamaño $n + k$, tenemos que reservar nuevo espacio en la memoria y copiar los $n$ elementos almacenados, operación que tiene un orden lineal O(n).
+Ahora bien, si queremos aumentar el tamaño del arreglo, $A$ de tipo $X$ y tamaño $n$, al tamaño $n + k$, tenemos que reservar nuevo espacio en la memoria y copiar los $n$ elementos almacenados, operación que tiene un orden lineal O(n).<br>
+
+Dicho lo anterior, la principal bondad de un arreglo radica en que el acceso a cualquier elemento es de orden $O(1)$. De manera más específica, acceder a la posición efectiva de cualquier elemento en un arreglo $A$ requiere del desplazamiento a la posición inicial del arreglo $dir(A)$ y del movimiento a la posición efectiva de la celda en cuestión mediante el polinomio de direccionamiento que depende únicamente de la dimensión $d$ de $A$. <br>
+
+Realmente sólo nos toma $d$ sumas y $2d$ multiplicaciones obtener la posición efectiva buscada.
 
 
-## Arreglos escalonados
-Al definir un arreglo multidimensional de dimensión $d$ en Java y otros lenguajes modernos, podemos posponer la inicialización de algunos de los subarrejlos de dimensión $d - k$ con $k \in \{1,\ldots,d-1\}$:
+
+## Arreglos escalonados (ragged arrays)
+Al definir un arreglo multidimensional de dimensión $d$, digamos 3, en Java y otros lenguajes modernos, podemos posponer la inicialización de algunos de los subarreglos de dimensión $d - k$ con $k \in \{1,\ldots,d-1\}$:
 
 ```
-int [][][]
+int [][][] arr = new int [7][][];
+arr[3] = new int [5][];
+arr[3][4] = new int [3];
+arr[3][4][2] = 9;
 
 ```
+En este ejemplo el arreglo `arr[2]` no está inicilaizado por tanto podría decirse que no tiene un tamaño establecido. Si quisiéramos medir el tamaño de este arreglo, podríamos razonar como sigue: <br>
+
+Tenemos un arreglo de tamaño 7 cuya tercer celda está inicializada como un arreglo de cinco celdas, de las cuales sólo la cuarta celda está inicializado como un arreglo unidimensional de tamaño tres que guarda en su última celda un 9. Entonces estamos ocupando un total de 7 + 5 + 3 = 15. Cosa que queda por debajo de $105 = 7 \cdot 5 \cdotEn 3$ que estaríamos ocupando si el arreglo estuviera lleno. Con esto en mente veamos la siguiente definición: 
+
+<div align="center">
+<img src="images/def2.jpg" alt="definición del arreglo lleno y el arreglo escalonado" width="500">
+ 
+</div>
 
 
+En memoria,  estos arreglos se guardan por separado, a diferencia de como vimos que Fortran o Pascal guardaban los arreglos multidimensionales, en un sólo bloque de memoria. Esto tiene una consecuencia digna de mencionar sobre la **operación de acceso**, que si bien se mantiene en el orden constante $O(1)$ si resulta levemente más tardada pues si quisiéramos, por ejemplo, acceder al 9 que guardamos en `arr[3][4][2]` tendríamos que despazarnos, primero a la dirección inicial del arreglo $dir(A)$, posteriormente, habría que desplazarse a la dirección inicial del arreglo `arr[3]`, luego a la dirección inicial de `arr[3][4]`y finalmente tendríamos que desplazarnos 2 celdas sobre este arreglo para dar con el valor que buscábamos. <br>
+
+En general, para un arreglo $A$ de dimensión d, necesitamos realizar $d$ desplazamientos en memoria, que pese a aparentar ser menos que las $3d$ operaciones aritméticas que mencionamos anteriormente, en toda arquitectura de computadoras la operación de desplazamiento en memoria tiene un mayo costo computacional que las operaciones aritméticas. 
+
+En conclusión, acceder al elemento en una celda de un arreglo escalonado es ligeramente más tardado que acceder a la celda de un arreglo lleno. <br>
+
+No sobra decir que otra forma de caracterizar un arreglo lleno, fuera de su tamaño, es mediante la inicialización de sus celdas. Podríamos decir que un arreglo lleno es aquel cuyas celdas en total son inicializadas al momento de ser declarado. Esto asegura que todos sus elementos se guardaren de forma contigua en memoria. 
