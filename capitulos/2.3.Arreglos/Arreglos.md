@@ -68,7 +68,7 @@ Este es nuestro **polinomio de direccionamiento**, una transformación lineal qu
 Ahora supongamos que nuestro arreglo $C$ es bidimensional, de tamaño $n = 7 \times 5$ y queremos conocer la posición efectiva de la celda $C[4][3]$ en memoria:
 
 <div align="center">
-<img src="images/arr3.jpg" alt="arreglo C bidimensional con celda E[4][3] resaltada" width="550">
+<img src="images/arr3.jpg" alt="arreglo C bidimensional con celda C[4][3] resaltada" width="550">
  
 </div>
 
@@ -78,7 +78,7 @@ Observemos que $i_1 = 4$ y que $i_2 = 3$. La primer entrada de nuestro vector de
 Antes de abordar la versión generalizada del polinomio de direccionamiento veamos un último ejemplo. Esta vez pediremos que $C$  sea un arreglo tridimensional, de tamaño $n = 7 \cdot 5 \cdot 3$, y de tipo Int. Supongamos que, dada la celda $C[5][5][1]$: 
 
 <div align="center">
-<img src="images/arr4.jpg" alt="Arreglo tridimensional en su versión prisma" width="450">
+<img src="images/arr4.jpg" alt="Arreglo tridimensional en su versión prisma" width="400">
  
 </div>
 
@@ -89,8 +89,10 @@ que también podemos visualizar de la siguiente manera,
  
 </div>
 
-en un arreglo de arreglos de arreglos; y que queremos encontrar su posición efectiva en nuestra memoria, que, como habíamos dicho, puede conceptualizarse como un arreglo unidimensional. <br>
-En este caso debemos multiplicar la primer entrada de nuestro vector de índices $i_1 = 5$ por el producto de los tamaños de las dimensiones siguiente $n_2 \times n_3$. Posteriormente debemos multiplicar 
+en un arreglo de arreglos de arreglos; y que queremos encontrar su posición efectiva $p(C[5][5][1])$ en nuestra memoria, que, como habíamos dicho, puede conceptualizarse como un arreglo unidimensional. <br>
+En este caso debemos multiplicar la primer entrada de nuestro vector de índices $i_1 = 5$ por el producto de los tamaños de las dimensiones siguiente $n_2 \times n_3$. Posteriormente debemos multiplicar la segunda entrada de nuestro vector de índices 
+
+$$i_1 \cdot n_2 \cdot n_3 + i_2 \cdot n_3 + i_3 = 5 \cdot 5  \cdot 3 +  5 \cdot 3  + 1$$
 
 ### Polinomio generalizado
 Retomando nuestros conceptos de la definición con la que comenzamos esta atención 
