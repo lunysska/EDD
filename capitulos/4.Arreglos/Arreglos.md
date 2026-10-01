@@ -82,8 +82,8 @@ Fuera de la disposición física de la memoria en nuestra computadora, como prog
 
 ## Definición práctica
 Esta definición se dividirá en tres partes, asumiendo que *X* es algún tipo de dato cuyo tamaño sea *k* bytes:
- - **Celda de tipo X**: Es un espacio contiguo en memoria cuyo tamaño
- - **Arreglo unidimensional de tipo X**: Es una colección de $n$ celdas consecutivas de tipo X accesibles mediante un índice $i \in \{0, 1, \ldots, n\}$
+ - **Celda de tipo X**: Es un espacio contiguo en memoria cuyo tamaño es el mismo que el dato de tipo $X$ que almacena. 
+ - **Arreglo unidimensional de tipo X**: Es una colección de $n$ celdas consecutivas de tipo X accesibles mediante un índice $i \in \{0, 1, \ldots, n\}$.
  - **Arreglo multidimensional de tipo X y dimensión d**:
      - Si $d = 1$, se trata de un arreglo unidimensional de tipo X.
      - Si $d > 1$, es un arreglo de arreglos multidimensionales de dimensión $d - 1$.
@@ -93,6 +93,7 @@ Esta definición se dividirá en tres partes, asumiendo que *X* es algún tipo d
 ## Polinomio de direccionamiento 
 
 <div id='4.1' />
+  
 ### De la posición de un arreglo hacia la posición efectiva en memoria
 En lenguajes como Fortran o Pascal todo arreglo, multidimensional o no, se almacenaba en memoria como un arreglo unidimensional. En este contexto el compilador tenía que calcular la posición en memoria, también conocida como la **posición efectiva** de una celda en particular. 
 
@@ -153,7 +154,7 @@ A dicho producto debemos multiplicarlo por el tamaño  en bytes del tipo Int, es
 <div id='4.3' />
  
 ### Polinomio generalizado
-Retomando nuestros conceptos de la definición con la que comenzamos esta nota, si tenemos un arreglo $A$, de tipo $X$, dimensión $d$, tamaño $n = n_1 \cdot n_2 \cdot \ldot \cdot n_d$ y dirección $dir(A)$ en memoria; el polinomio de direccionamiento que nos da la posición efectiva de la celda $A[i_1][i_2]\ldots[i_d]$ es:
+Retomando nuestros conceptos de la definición con la que comenzamos esta nota, si tenemos un arreglo $A$, de tipo $X$, dimensión $d$, tamaño $n = n_1 \cdot n_2 \cdot \ldots \cdot n_d$ y dirección $dir(A)$ en memoria; el polinomio de direccionamiento que nos da la posición efectiva de la celda $A[i_1][i_2]\ldots[i_d]$ es:
 
 $$p(A[i_1][i_2]\ldots[i_d]) = dir(A) + tamaño(X)\cdot\sum_{t = 1}^{d}i_t\prod_{s=t+1}^{d}n_s$$
 
@@ -187,7 +188,7 @@ arr[3][4][2] = 9;
 ```
 En este ejemplo el arreglo `arr[2]` no está inicilaizado por tanto podría decirse que no tiene un tamaño establecido. Si quisiéramos medir el tamaño de este arreglo, podríamos razonar como sigue: <br>
 
-Tenemos un arreglo de tamaño 7 cuya tercer celda está inicializada como un arreglo de cinco celdas, de las cuales sólo la cuarta celda está inicializado como un arreglo unidimensional de tamaño tres que guarda en su última celda un 9. Entonces estamos ocupando un total de 7 + 5 + 3 = 15. Cosa que queda por debajo de $105 = 7 \cdot 5 \cdotEn 3$ que estaríamos ocupando si el arreglo estuviera lleno. Con esto en mente veamos la siguiente definición: 
+Tenemos un arreglo de tamaño 7 cuya tercer celda está inicializada como un arreglo de cinco celdas, de las cuales sólo la cuarta celda está inicializado como un arreglo unidimensional de tamaño tres que guarda en su última celda un 9. Entonces estamos ocupando un total de 7 + 5 + 3 = 15. Cosa que queda por debajo de $105 = 7 \cdot 5 \cdot 3$ que obtendríamos si el arreglo estuviera lleno. Con esto en mente veamos la siguiente definición: 
 
 <div align="center">
 <img src="images/def2.jpg" alt="definición del arreglo lleno y el arreglo escalonado" width="700">
@@ -202,5 +203,3 @@ Si quisiéramos, por ejemplo, acceder al 9 que guardamos en `arr[3][4][2]` tendr
 En general, para un arreglo $A$ de dimensión d, necesitamos realizar $d$ desplazamientos en memoria, que pese a aparentar ser menos que las $3d$ operaciones aritméticas que mencionamos anteriormente ($d$ sumas y $2d$ multiplicaciones), en toda arquitectura de computadoras la operación de desplazamiento en memoria tiene un mayo costo computacional que las operaciones aritméticas. <br>
 
 En conclusión, acceder al elemento en una celda de un arreglo escalonado es ligeramente más tardado que acceder a la celda de un arreglo lleno. <br>
-
-No sobra decir que otra forma de caracterizar un arreglo lleno, fuera de su tamaño, es mediante la inicialización de sus celdas. De este modo, un arreglo lleno es aquel cuyas celdas, en total, son inicializadas al momento de ser declarado. Esto asegura que todos sus elementos se guardaren de forma contigua en memoria. 
