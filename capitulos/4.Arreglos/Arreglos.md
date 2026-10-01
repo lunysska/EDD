@@ -1,8 +1,46 @@
-# 2.3 Arreglos
+# 4. Arreglos
+
+## Índice
+- [Introducción](##Introduccion)
+- [Definición Formal](##Definición formal)
+
+<div id='id1' />
+## Primer apartado
+Texto del primer apartado
+<div id='id2' />
+
+## Introducción
+Los arreglos son estructuras muy sencillas y ampliamente utilizadas. Para definirlos adoptaremos dos enfoques, uno formal y otro más práctico. Este último, asociado al uso conceptual de la memoria, nos permitirá comprender el costo computacional de sus operaciones usuales.  <br>
+
+Intuitivamente un arreglo es una colección contigua de datos de un mismo tipo almacenados en una suerte de cajas que tienen un nombre. Esas cajas suelen llamarse celdas y el nombre de cada una es conocida como su _índice_. En un arreglo $A$, un índice $i$ se refiere a una celda $A[i]$, y mediante esa sintaxis podemos acceder al valor que guarda esa celda. <br>
+Cuando pensamos en arreglos de dos dimensiones podemos imaginar matrices cuyas celdas no están indexadas por un único número, sino por un par ordenado $i = (i_1, i_2)$, de modo que, si $B$ es un arreglo bidimensional, escribimos $B[3][4]$ para referirnos al valor de la celda indexada por el par $(3,4)$ en $B$.  <br>
+
+Si consideramos un arreglo tridimensional $C$, las celdas quedarán indexadas por una tripleta ordenada $i = (i_1,i_2,i_3)$, por ejemplo, $C[4][7][8]$ será la sintaxis para referirnos a la celda indexada por la tripleta $(4,7,8)$. Tanto pares ordenados como tripletas ordenadas no son otra cosa que casos particulares de vectores de dos y tres dimensiones respectivamente. De modo que, en general, si tenemos un arreglo de $d$ dimensiones, sus celdas estarán indexadas por vectores de $d$ entradas. Entonces si $D$ es un arreglo de $d$ dimensiones, el término $D[4][2]\ldots[7]$ se refiere a la celda indexada por el vector d-dimensional $(4, 2,\ldots, 7)$, siempre y cuando dicha celda se encuentre en $D$.<br> 
+
+¿Cuándo es que una celda no se encuentra en un arreglo? Cuando las entradas del vector que la indexa no pertenecen al rango permitido. Este rango depende del tamaño que tenga el arreglo en una dimensión dada. Por ejemplo, si tenemos aquel arreglo bidimensional $B$ del párrafo anterior y lo definimos como una matríz de $8 \times 6$, tendremos 8 renglones y 6 columnas; 8 es el tamaño del arreglo en la primer dimensión y 6 es el tamaño del arreglo en la segunda dimensión. 
+
+<div align="center">
+<img src="images/matriz8x6.jpg" alt="matriz8x6" width="700">
+</div>
+
+La celda $B[3][4]$ si se encuentra dentro de $B$ porque $3 \in \{0,1,\ldots,\7}$ y $4 \in \{0,1,\ldots, 5\}$. Pero la celda $B[32][91]$ claramente no se encuentra en $B$. Del mismo modo, y aunque menos trivial, $B[8][6]$ no se encuentra en $B$ porque, ambos rangos sólo llegan hasta 7 y 5 respectivamente. Si el o la lectora fuesen tan amables de tomar una hoja de papel y dibujar el arreglo $B$ como la matriz que hemos descrito, colocando los índices correspondientes a cada celda partiendo desde el par ordenado $(0,0)$ podría comprobar de manera más experimental y, a caso lúdica, lo que acabamos de declarar.<br>
+
+<div align="center">
+<img src="images/gatoMatriz.jpg" alt="gato necesario" width="700">
+</div>
+
+En general un arreglo tiene tres características principales: 
+ - Dimensión $d$
+ - Tipo $X$
+ - Tamaño $n = n_1 \cdot n_2 \cdot \ldots \cdot n_d$
+
+Donde cada $n_s$ es el tamaño del arreglo en la dimensión $s \in {1\ldots} d$. De este modo hemos definido implícitamente los rángos válidos para las entradas de los vectores que indexan cada celda, ya que la entrada $i_s$ de algún vector $(i_1,\ldots,i_s,\ldots,i_d)$ sólo puede tener valores en el rango $\{0,...,n_s-1\}$. 
+
+Todas estas ideas cobran mayor formalidad en la siguiente sección. 
 
 ## Definición formal
 
-Los arreglos son estructuras muy sencillas pero útiles y ampliamente utilizadas. Para definirlos adoptaremos dos enfoques, uno formal y otro más práctico. Este último, asociado al uso conceptual de la memoria, nos permitirá comprender el costo computacional de sus operaciones usuales.  <br>
+La definición formal arroja luz sobre las etiquetas que adoptaremos para referirnos a las características de un arreglo
 Formalmente un arreglo se puede definir como una función de la siguiente manera: 
 
 <div align="center">
