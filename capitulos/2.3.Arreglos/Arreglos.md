@@ -132,15 +132,17 @@ En este ejemplo el arreglo `arr[2]` no está inicilaizado por tanto podría deci
 Tenemos un arreglo de tamaño 7 cuya tercer celda está inicializada como un arreglo de cinco celdas, de las cuales sólo la cuarta celda está inicializado como un arreglo unidimensional de tamaño tres que guarda en su última celda un 9. Entonces estamos ocupando un total de 7 + 5 + 3 = 15. Cosa que queda por debajo de $105 = 7 \cdot 5 \cdotEn 3$ que estaríamos ocupando si el arreglo estuviera lleno. Con esto en mente veamos la siguiente definición: 
 
 <div align="center">
-<img src="images/def2.jpg" alt="definición del arreglo lleno y el arreglo escalonado" width="500">
+<img src="images/def2.jpg" alt="definición del arreglo lleno y el arreglo escalonado" width="700">
  
 </div>
 
 
-En memoria,  estos arreglos se guardan por separado, a diferencia de como vimos que Fortran o Pascal guardaban los arreglos multidimensionales, en un sólo bloque de memoria. Esto tiene una consecuencia digna de mencionar sobre la **operación de acceso**, que si bien se mantiene en el orden constante $O(1)$ si resulta levemente más tardada pues si quisiéramos, por ejemplo, acceder al 9 que guardamos en `arr[3][4][2]` tendríamos que despazarnos, primero a la dirección inicial del arreglo $dir(A)$, posteriormente, habría que desplazarse a la dirección inicial del arreglo `arr[3]`, luego a la dirección inicial de `arr[3][4]`y finalmente tendríamos que desplazarnos 2 celdas sobre este arreglo para dar con el valor que buscábamos. <br>
+En memoria,  estos arreglos se guardan por separado, a diferencia de como vimos que Fortran o Pascal guardaban los arreglos multidimensionales, en un sólo bloque de memoria. Esto tiene una consecuencia digna de mencionar sobre la **operación de acceso**, que si bien se mantiene en el orden constante $O(1)$, resulta levemente más tardada. <br>
 
-En general, para un arreglo $A$ de dimensión d, necesitamos realizar $d$ desplazamientos en memoria, que pese a aparentar ser menos que las $3d$ operaciones aritméticas que mencionamos anteriormente, en toda arquitectura de computadoras la operación de desplazamiento en memoria tiene un mayo costo computacional que las operaciones aritméticas. 
+Si quisiéramos, por ejemplo, acceder al 9 que guardamos en `arr[3][4][2]` tendríamos que desplazarnos, primero a la dirección inicial del arreglo $dir(A)$. Posteriormente, tendríamos que desplazarnos a la dirección inicial del arreglo `arr[3]`, luego a la dirección inicial de `arr[3][4]`y finalmente tendríamos que desplazarnos 2 celdas sobre este arreglo para dar con el valor que buscábamos. <br>
+
+En general, para un arreglo $A$ de dimensión d, necesitamos realizar $d$ desplazamientos en memoria, que pese a aparentar ser menos que las $3d$ operaciones aritméticas que mencionamos anteriormente ($d$ sumas y $2d$ multiplicaciones), en toda arquitectura de computadoras la operación de desplazamiento en memoria tiene un mayo costo computacional que las operaciones aritméticas. <br>
 
 En conclusión, acceder al elemento en una celda de un arreglo escalonado es ligeramente más tardado que acceder a la celda de un arreglo lleno. <br>
 
-No sobra decir que otra forma de caracterizar un arreglo lleno, fuera de su tamaño, es mediante la inicialización de sus celdas. Podríamos decir que un arreglo lleno es aquel cuyas celdas en total son inicializadas al momento de ser declarado. Esto asegura que todos sus elementos se guardaren de forma contigua en memoria. 
+No sobra decir que otra forma de caracterizar un arreglo lleno, fuera de su tamaño, es mediante la inicialización de sus celdas. De este modo, un arreglo lleno es aquel cuyas celdas, en total, son inicializadas al momento de ser declarado. Esto asegura que todos sus elementos se guardaren de forma contigua en memoria. 
