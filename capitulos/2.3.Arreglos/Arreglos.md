@@ -101,7 +101,7 @@ Retomando nuestros conceptos de la definición con la que comenzamos esta nota, 
 
 $$p(A[i_1][i_2]\ldots[i_d]) = dir(A) + tamaño(X)\cdot\sum_{t = 1}^{d}i_t\prod_{s=t+1}^{d}n_s$$
 
-donde, por convención decimos que $\prod_{s=d+1}^{d}n_s = 1$.
+donde, por convención, decimos que $\prod_{s=d+1}^{d}n_s = 1$.
 
 ## Operaciones sobre arreglos 
 Los arreglos son estructuras estáticas, esto quiere decir que una vez reservada la memoria y asignadas sus celdas a valores específicos, 
