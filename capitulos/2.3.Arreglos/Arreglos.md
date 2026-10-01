@@ -75,13 +75,41 @@ Ahora supongamos que nuestro arreglo $C$ es bidimensional, de tamaño $n = 7 \ti
 Observemos que $i_1 = 4$ y que $i_2 = 3$. La primer entrada de nuestro vector de índices $i_1$ nos dice cuántos renglones bajar. Como cada renglón tiene $n_2 = 5$ celdas, entonces debemos multiplicar $i_1 \cdot n_2 = 4 \cdot 5 = 20$. Esto quiere decir que la dirección en memoria de  
 
 
-Ahora, supongamos que tenemos un arreglo $E$ tridimensional, de tamaño $n = 7 \cdot 5 \cdot 3$, y de tipo Int. Y queremos encontrar la posición efectiva 
+Antes de abordar la versión generalizada del polinomio de direccionamiento veamos un último ejemplo. Esta vez pediremos que $C$  sea un arreglo tridimensional, de tamaño $n = 7 \cdot 5 \cdot 3$, y de tipo Int. Supongamos que, dada la celda $C[5][5][1]$: 
+
+<div align="center">
+<img src="images/arr4.jpg" alt="Arreglo tridimensional en su versión prisma" width="450">
+ 
+</div>
+
+que también podemos visualizar de la siguiente manera,
+
+<div align="center">
+<img src="images/arr5.jpg" alt="arreglo C tridimensional conceptualizado como arreglo de arreglos" width="500">
+ 
+</div>
+
+en un arreglo de arreglos de arreglos; y que queremos encontrar su posición efectiva en nuestra memoria, que, como habíamos dicho, puede conceptualizarse como un arreglo unidimensional. <br>
+En este caso debemos multiplicar la primer entrada de nuestro vector de índices $i_1 = 5$ por el producto de los tamaños de las dimensiones siguiente $n_2 \times n_3$. Posteriormente debemos multiplicar 
+
 ### Polinomio generalizado
 Retomando nuestros conceptos de la definición con la que comenzamos esta atención 
 
 ## Operaciones con arreglos 
 Los arreglos son estructuras estáticas, esto quiere decir que una vez reservada la memoria y asignadas sus celdas a valores específicos, 
+obtendremos una estructura que no cambiará en tiempo de ejecución. <br>
+
+La principal desventaja es que tanto borrar un elemento como aumentar el tamaño de un arreglo dado tomará tiempo lineal $O(n)$ con $n$ el tamaño del arreglo. En el primer caso, supongamos que tenemos un arreglo $A$ de dimensión $d$, y tamaño $n$. <br> 
+Para borrar el elemento de una celda, digamos $A[i]$, tendremos que reemplazarlo por el contenido de la celda $A[i+1]$. A su vez, el contenido de la celda $A[i+2]$ debe reemplazar al contenido de la celda $A[i + 1]$ y así sucesivamente hasta que reemplacemos el contenido de la celda $A[n-2]$ por el contenido de la celda $A[n-1]$. En total habremos hecho $(n-1) - (i + 1) + 1 = n - i - 1$. En caso de que  operaciones de copia  consideramos eliminar el contenido de la celda A[0] entonces haríamos $n - 1$ operaciones. <br>
+Ahora bien, si queremos aumentar el tamaño del arreglo, $A$ de tipo $X$ y tamaño $n$, al tamaño $n + k$, tenemos que reservar nuevo espacio en la memoria y copiar los $n$ elementos almacenados, operación que tiene un orden lineal O(n).
+
 
 ## Arreglos escalonados
+Al definir un arreglo multidimensional de dimensión $d$ en Java y otros lenguajes modernos, podemos posponer la inicialización de algunos de los subarrejlos de dimensión $d - k$ con $k \in \{1,\ldots,d-1\}$:
+
+```
+int [][][]
+
+```
 
 
