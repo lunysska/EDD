@@ -1,14 +1,18 @@
 # 4. Arreglos
 
 ## Índice
-- [Introducción](##Introduccion)
-- [Definición Formal](##Definición formal)
+- [Introducción](#0)
+- [Definición Formal](#1)
+- [Memoria](#2)
+- [Definición Práctica](#3)
+- [Polinomio de Direccionamiento](#4)
+  - [De la posición de un arreglo hacia la posición efectiva en memoria](#4.1)
+  - [Desde un arreglo multi-dimensional hacia su posición efectiva en memoria](#4.2)
+  - [Polinomio generalizado](#4.3)
+- [Operaciones sobre arreglos](#5)
+- [Arreglos escalonados](#6)
 
-<div id='id1' />
-## Primer apartado
-Texto del primer apartado
-<div id='id2' />
-
+<div id='0' />
 ## Introducción
 Los arreglos son estructuras muy sencillas y ampliamente utilizadas. Para definirlos adoptaremos dos enfoques, uno formal y otro más práctico. Este último, asociado al uso conceptual de la memoria, nos permitirá comprender el costo computacional de sus operaciones usuales.  <br>
 
@@ -20,13 +24,13 @@ Si consideramos un arreglo tridimensional $C$, las celdas quedarán indexadas po
 ¿Cuándo es que una celda no se encuentra en un arreglo? Cuando las entradas del vector que la indexa no pertenecen al rango permitido. Este rango depende del tamaño que tenga el arreglo en una dimensión dada. Por ejemplo, si tenemos aquel arreglo bidimensional $B$ del párrafo anterior y lo definimos como una matríz de $8 \times 6$, tendremos 8 renglones y 6 columnas; 8 es el tamaño del arreglo en la primer dimensión y 6 es el tamaño del arreglo en la segunda dimensión. 
 
 <div align="center">
-<img src="images/matriz8x6.jpg" alt="matriz8x6" width="700">
+<img src="images/matriz8x6.jpg" alt="matriz8x6" width="300">
 </div>
 
-La celda $B[3][4]$ si se encuentra dentro de $B$ porque $3 \in \{0,1,\ldots,\7}$ y $4 \in \{0,1,\ldots, 5\}$. Pero la celda $B[32][91]$ claramente no se encuentra en $B$. Del mismo modo, y aunque menos trivial, $B[8][6]$ no se encuentra en $B$ porque, ambos rangos sólo llegan hasta 7 y 5 respectivamente. Si el o la lectora fuesen tan amables de tomar una hoja de papel y dibujar el arreglo $B$ como la matriz que hemos descrito, colocando los índices correspondientes a cada celda partiendo desde el par ordenado $(0,0)$ podría comprobar de manera más experimental y, a caso lúdica, lo que acabamos de declarar.<br>
+La celda $B[3][4]$ si se encuentra dentro de $B$ porque $3 \in \{0,1,\ldots,7\}$ y $4 \in \{0,1,\ldots, 5\}$. Pero la celda $B[32][91]$ claramente no se encuentra en $B$. Del mismo modo, y aunque menos trivial, $B[8][6]$ no se encuentra en $B$ porque, ambos rangos sólo llegan hasta 7 y 5 respectivamente. Si el o la lectora fuesen tan amables de tomar una hoja de papel y dibujar el arreglo $B$ como la matriz que hemos descrito, colocando los índices correspondientes a cada celda partiendo desde el par ordenado $(0,0)$ podría comprobar de manera más experimental y, a caso lúdica, lo que acabamos de declarar.<br>
 
 <div align="center">
-<img src="images/gatoMatriz.jpg" alt="gato necesario" width="700">
+<img src="images/gatoMatriz.jpg" alt="gato necesario" width="240">
 </div>
 
 En general un arreglo tiene tres características principales: 
@@ -38,7 +42,9 @@ Donde cada $n_s$ es el tamaño del arreglo en la dimensión $s \in {1\ldots} d$.
 
 Todas estas ideas cobran mayor formalidad en la siguiente sección. 
 
-## Definición formal
+<div id='1' />
+ 
+ ## Definición formal
 
 La definición formal arroja luz sobre las etiquetas que adoptaremos para referirnos a las características de un arreglo
 Formalmente un arreglo se puede definir como una función de la siguiente manera: 
@@ -62,12 +68,16 @@ Y, por ejemplo, el elemento B[1][2], en realidad es la función B evaluada en el
 
 El primer índice (en este caso el 1) nos indica un desplazamiento por la dimensión 1 que mide $n_1=7$, mientras que el segundo índice (en este caso 2) indica cuántas columnas desplazarse a la derecha, es decir, indica un desplazamiento por la dimensión 2, que mide $n_2=5$.  
 
+<div id='2' />
+
 ## Memoria 
 Fuera de la disposición física de la memoria en nuestra computadora, como programadores, estamos acostumbrados a imaginarla como un arreglo unidimensional de celdas con tamaño de 1 byte = 4 bits. Cada celda esta asociada a una dirección $m$ que pertenece a un espacio de direcciones predefinido $m \in [0,M)$. 
 
 <div align="center">
 <img src="images/memoria.jpg" alt="Arreglo bidimensional con la celda (1,2) resaltada" width="600"> 
 </div>
+
+<div id='3' />
 
 ## Definición práctica
 Esta definición se dividirá en tres partes, asumiendo que *X* es algún tipo de dato cuyo tamaño sea *k* bytes:
@@ -76,9 +86,12 @@ Esta definición se dividirá en tres partes, asumiendo que *X* es algún tipo d
  - **Arreglo multidimensional de tipo X y dimensión d**:
      - Si $d = 1$, se trata de un arreglo unidimensional de tipo X.
      - Si $d > 1$, es un arreglo de arreglos multidimensionales de dimensión $d - 1$.
-   
+
+<div id='4' />
+ 
 ## Polinomio de direccionamiento 
 
+<div id='4.1' />
 ### De la posición de un arreglo hacia la posición efectiva en memoria
 En lenguajes como Fortran o Pascal todo arreglo, multidimensional o no, se almacenaba en memoria como un arreglo unidimensional. En este contexto el compilador tenía que calcular la posición en memoria, también conocida como la **posición efectiva** de una celda en particular. 
 
@@ -101,6 +114,8 @@ p(C[i]) = dir(C) + tamaño(X) \cdot i
 $$
 
 Este es nuestro **polinomio de direccionamiento**, una transformación lineal que a partir del índice de una celda nos permite conocer su posición efectiva en memoria. 
+
+<div id='4.2' />
 
 ### Desde un arreglo multi-dimensional hacia su posición efectiva en memoria
 Ahora supongamos que nuestro arreglo $C$ es bidimensional, de tamaño $n = 7 \times 5$ y queremos conocer la posición efectiva de la celda $C[4][3]$ en memoria:
@@ -134,6 +149,8 @@ $$i_1 \cdot n_2 \cdot n_3 + i_2 \cdot n_3 + i_3 = 5 \cdot 5  \cdot 3 +  5 \cdot 
 
 A dicho producto debemos multiplicarlo por el tamaño  en bytes del tipo Int, es decir, por cuatro y, finalmente, sumarle la dirección efectiva del comienzo del arreglo en memoria a la que nos referimos como $dir(C)$. 
 
+<div id='4.3' />
+ 
 ### Polinomio generalizado
 Retomando nuestros conceptos de la definición con la que comenzamos esta nota, si tenemos un arreglo $A$, de tipo $X$, dimensión $d$, tamaño $n = n_1 \cdot n_2 \cdot \ldot \cdot n_d$ y dirección $dir(A)$ en memoria; el polinomio de direccionamiento que nos da la posición efectiva de la celda $A[i_1][i_2]\ldots[i_d]$ es:
 
@@ -141,6 +158,8 @@ $$p(A[i_1][i_2]\ldots[i_d]) = dir(A) + tamaño(X)\cdot\sum_{t = 1}^{d}i_t\prod_{
 
 donde, por convención, decimos que $\prod_{s=d+1}^{d}n_s = 1$.
 
+<div id='5' />
+ 
 ## Operaciones sobre arreglos 
 Los arreglos son estructuras estáticas, esto quiere decir que una vez reservada la memoria y asignadas sus celdas a valores específicos, 
 obtendremos una estructura que no cambiará en tiempo de ejecución. <br>
@@ -153,7 +172,7 @@ Dicho lo anterior, la principal bondad de un arreglo radica en que el acceso a c
 
 Realmente sólo nos toma $d$ sumas y $2d$ multiplicaciones obtener la posición efectiva buscada.
 
-
+<div id='6' />
 
 ## Arreglos escalonados (ragged arrays)
 Al definir un arreglo multidimensional de dimensión $d$, digamos 3, en Java y otros lenguajes modernos, podemos posponer la inicialización de algunos de los subarreglos de dimensión $d - k$ con $k \in \{1,\ldots,d-1\}$:
