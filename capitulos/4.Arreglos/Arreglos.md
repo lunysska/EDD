@@ -46,8 +46,7 @@ Todas estas ideas cobran mayor formalidad en la siguiente sección.
 <div id='1' />
  
  ## Definición formal
-
-La definición formal arroja luz sobre las etiquetas que adoptaremos para referirnos a las características de un arreglo
+ 
 Formalmente un arreglo se puede definir como una función de la siguiente manera: 
 
 <div align="center">
@@ -72,7 +71,7 @@ El primer índice (en este caso el 1) nos indica un desplazamiento por la dimens
 <div id='2' />
 
 ## Memoria 
-Fuera de la disposición física de la memoria en nuestra computadora, como programadores, estamos acostumbrados a imaginarla como un arreglo unidimensional de celdas con tamaño de 1 byte = 4 bits. Cada celda esta asociada a una dirección $m$ que pertenece a un espacio de direcciones predefinido $m \in [0,M)$. 
+Fuera de la disposición física de la memoria en nuestra computadora, como programadores, estamos acostumbrados a imaginarla como un arreglo unidimensional de celdas con tamaño de 1 byte = 8 bits. Cada celda esta asociada a una dirección $m$ que pertenece a un espacio de direcciones predefinido $m \in [0,M)$. 
 
 <div align="center">
 <img src="images/memoria.jpg" alt="Arreglo bidimensional con la celda (1,2) resaltada" width="600"> 
@@ -83,7 +82,7 @@ Fuera de la disposición física de la memoria en nuestra computadora, como prog
 ## Definición práctica
 Esta definición se dividirá en tres partes, asumiendo que *X* es algún tipo de dato cuyo tamaño sea *k* bytes:
  - **Celda de tipo X**: Es un espacio contiguo en memoria cuyo tamaño es el mismo que el dato de tipo $X$ que almacena. 
- - **Arreglo unidimensional de tipo X**: Es una colección de $n$ celdas consecutivas de tipo X accesibles mediante un índice $i \in \{0, 1, \ldots, n\}$.
+ - **Arreglo unidimensional de tipo X**: Es una colección de $n$ celdas consecutivas de tipo X accesibles mediante un índice $i \in \{0, 1, \ldots, n-1\}$.
  - **Arreglo multidimensional de tipo X y dimensión d**:
      - Si $d = 1$, se trata de un arreglo unidimensional de tipo X.
      - Si $d > 1$, es un arreglo de arreglos multidimensionales de dimensión $d - 1$.
