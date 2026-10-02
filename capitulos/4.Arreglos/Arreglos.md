@@ -11,7 +11,7 @@
   - [Polinomio generalizado](#4.3)
 - [Operaciones sobre arreglos](#5)
 - [Arreglos escalonados](#6)
-
+- [Referencias](#7)
 <div id='0' />
   
 ## Introducción
@@ -203,3 +203,11 @@ Si quisiéramos, por ejemplo, acceder al 9 que guardamos en `arr[3][4][2]` tendr
 En general, para un arreglo $A$ de dimensión d, necesitamos realizar $d$ desplazamientos en memoria, que pese a aparentar ser menos que las $3d$ operaciones aritméticas que mencionamos anteriormente ($d$ sumas y $2d$ multiplicaciones), en toda arquitectura de computadoras la operación de desplazamiento en memoria tiene un mayo costo computacional que las operaciones aritméticas. <br>
 
 En conclusión, acceder al elemento en una celda de un arreglo escalonado es ligeramente más tardado que acceder a la celda de un arreglo lleno. <br>
+
+<div id='7' />
+
+## Referencias
+
+   -Galaviz Casas, José (2012). Estructuras de datos y análisis de algoritmos: Una introducción usando Java. Ciudad de México, México: Facultad de Ciencias, UNAM.
+
+   -Peláez, Canek (2018). Estructuras de datos con Java moderno. Ciudad de México, México: Facultad de Ciencias, UNAM. ISBN: 978-607-30-0966-9.
