@@ -26,7 +26,6 @@ Este curso forma parte de los complementos a desarrollar para el curso de Estruc
    3. Arreglo de una dimensión
    5. Arreglo de dos dimensiones
    6. Definicion formal general<br>
-   *. **Tarea:** Tarea con puntos extras: Hacer un esquema del polinomio para dos dimensiones<br>
 9. Estructuras de datos lineales.
    1. [Listas ligadas](capitulos/listasLigadas.md)
    2. [Listas doblemente ligadas](capitulos/listasDoblementeLigadas.md)
