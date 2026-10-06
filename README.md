@@ -3,6 +3,10 @@ Este curso forma parte de los complementos a desarrollar para el curso de Estruc
 
 [Tareas](capitulos/tareas.md)<br>
 [Tareas 2027-1](capitulos/tareas2027-01.md)<br>
+    - [Tarea 1: TDA](tareas/tareas_2027-01/Tarea_1.pdf)
+    - [Tarea 2: Tiempos de ejecución y orden asintótico](tareas/tareas_2027-01/Tarea_1.pdf)
+    - [Tarea 3: Recurrencias](tareas/tareas_2027-01/Tarea_1.pdf)
+    - [Tarea 4: Arreglos y polinomio de direccionamiento](tareas/tareas_2027-01/Tarea_1.pdf)
 [Laboratorio](laboratorio/introduccion.md)<br>
 [Proyecto Final](capitulos/proyectoFinal.md)
 
